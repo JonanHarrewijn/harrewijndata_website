@@ -1,0 +1,18 @@
+[
+    {
+      "company": "Company A",
+      "logo": "company1.png",
+      "description": "Built data pipelines using Azure Data Factory and SQL Server."
+    },
+    {
+      "company": "Company B",
+      "logo": "company2.png",
+      "description": "Created BI dashboards in Power BI to track key KPIs."
+    },
+    {
+      "company": "Company C",
+      "logo": "company3.png",
+      "description": "Automated ETL workflows with Python and Airflow."
+    }
+  ]
+  
