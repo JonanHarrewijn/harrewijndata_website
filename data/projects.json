@@ -1,18 +1,62 @@
 [
-    {
-      "company": "Company A",
-      "logo": "company1.png",
-      "description": "Built data pipelines using Azure Data Factory and SQL Server."
-    },
-    {
-      "company": "Company B",
-      "logo": "company2.png",
-      "description": "Created BI dashboards in Power BI to track key KPIs."
-    },
-    {
-      "company": "Company C",
-      "logo": "company3.png",
-      "description": "Automated ETL workflows with Python and Airflow."
-    }
-  ]
-  
+  {
+    "company": "MBS Groep",
+    "logo": "mbs.png",
+    "description": "End-to-end DataWarehouse & Power BI implementation in Microsoft Fabric, including metadata-driven pipelines, medallion architecture, governance, and live monitoring reports."
+  },
+  {
+    "company": "Shared Service Centrum Ons",
+    "logo": "ssc_ons.png",
+    "description": "Led redesign as Product Owner; built a centralized Microsoft Fabric DWH across 7 government partners, aligned standards (BIO2.0, WAF, WEF), and planned Purview integration."
+  },
+  {
+    "company": "Huisartsenposten OostBrabant",
+    "logo": "huisartsenposten.png",
+    "description": "Designed and implemented a Fabric-based data platform with Kimball modeling, RLS, data quality automation, Balanced Scorecard reporting, and end-user training."
+  },
+  {
+    "company": "Partou B.V.",
+    "logo": "partou.png",
+    "description": "Re-engineered data models and MDM processes in a childcare context. Improved lineage tracking, optimized SQL performance, and integrated multi-source data."
+  },
+  {
+    "company": "Oxbo B.V.",
+    "logo": "oxbo.png",
+    "description": "Built Azure-based DWH with CI/CD pipelines in GitHub Actions. Integrated data from 10+ sources, implemented Kimball modeling, RLS/OLS, and stakeholder change management."
+  },
+  {
+    "company": "Scope Data / Partou B.V.",
+    "logo": "partou2.png",
+    "description": "Integrated new ERP data into an existing DWH. Modeled new entities, performed data migration validation, MDM checks, and supported go/no-go for billing."
+  },
+  {
+    "company": "OTTO B.V.",
+    "logo": "otto.png",
+    "description": "Migrated legacy ETL to Azure; designed metadata-based pipelines and used Python ML to analyze marketing and customer return prediction."
+  },
+  {
+    "company": "VidaXL",
+    "logo": "vidaxl.png",
+    "description": "Extended ETL pipelines for optimizing last-mile carrier selection using Qlikview; added business rules based on delivery speed and price."
+  },
+  {
+    "company": "MEG",
+    "logo": "meg.png",
+    "description": "Created MDM workflows in Power Apps/Power Flow for Certified Reporting. Designed role-based access, dashboards, and automated data entry approval processes."
+  },
+  {
+    "company": "Cratos",
+    "logo": "cratos.png",
+    "description": "Full Power BI implementation for construction project insights. Connected APIs, automated data pipelines, and trained internal users."
+  },
+  {
+    "company": "DIT Holding",
+    "logo": "dit.png",
+    "description": "Replaced Excel & Qlikview with centralized Power BI dashboards across departments. Built DAX calculations, conducted interviews, and optimized data flows."
+  },
+  {
+    "company": "Boskalis",
+    "logo": "boskalis.png",
+    "description": "Built ship monitoring dashboards using Power BI and Azure. Developed competition analysis tools in Python and advised on data collection improvements."
+  }
+]
