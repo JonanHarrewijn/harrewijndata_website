@@ -3,8 +3,6 @@ venv/
 __pycache__/
 *.pyc
 
-# Output HTML build
-output/
 
 # Mac/Windows/system stuff
 .DS_Store
