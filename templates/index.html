@@ -2,29 +2,146 @@
 {% block content %}
 
 <!-- Landing Section -->
-<section class="min-h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600 text-white px-4 py-16">
-  <img src="static/images/profile.jpg" alt="My Photo" class="w-48 h-48 rounded-full shadow-lg mb-6 md:mb-0 md:mr-10" />
-  <div>
-    <h1 class="text-4xl font-bold mb-4">Hi, I'm Jonan Harrewijn</h1>
-    <p class="text-lg max-w-xl">
-      I’m a data engineer and BI specialist who loves turning data into insights. Check out some of my work below!
+<section class="min-h-[80vh] flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-slate-900 to-slate-700 text-white px-6 py-12 animate-fade-in" style="animation-delay: 0.2s;">
+  <div class="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
+    <img src="static/images/profile.jpg" alt="My Photo" class="w-48 h-48 md:w-56 md:h-56 rounded-full shadow-2xl border-4 border-white object-cover" />
+  </div>
+  <div class="w-full md:w-1/2 text-center md:text-left">
+    <h1 class="text-4xl font-bold mb-3 leading-tight">
+      Hi, I'm Jonan Harrewijn
+    </h1>
+    <p class="text-lg md:text-xl mb-2 max-w-xl">
+      <span class="text-gray-300">I’m a</span>
+      <span id="typing" class="font-semibold text-white"></span>
+    </p>
+    <p class="text-base text-gray-300 max-w-xl">
+      I specialize in building end-to-end data platforms and dashboards that help organizations turn data into insight and action.
     </p>
   </div>
 </section>
 
+<!-- Typing animation script -->
+<script>
+  const titles = [
+    "Data Engineer",
+    "BI Specialist",
+    "Microsoft Fabric Expert",
+    "Power BI Architect"
+  ];
+
+  let index = 0;
+  let charIndex = 0;
+  let currentTitle = "";
+  let isDeleting = false;
+  const speed = 100;
+  const typingElement = document.getElementById("typing");
+
+  function type() {
+    if (index >= titles.length) index = 0;
+    currentTitle = titles[index];
+
+    if (isDeleting) {
+      typingElement.textContent = currentTitle.substring(0, charIndex--);
+      if (charIndex < 0) {
+        isDeleting = false;
+        index++;
+        setTimeout(type, 500);
+        return;
+      }
+    } else {
+      typingElement.textContent = currentTitle.substring(0, charIndex++);
+      if (charIndex > currentTitle.length) {
+        isDeleting = true;
+        setTimeout(type, 1000);
+        return;
+      }
+    }
+
+    setTimeout(type, isDeleting ? speed / 2 : speed);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(type, 500);
+  });
+</script>
+
+<!-- Fade-in animation -->
+<style>
+  .animate-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+
 <!-- Projects Carousel -->
-<section class="bg-white py-12 px-6">
+<section id="projects" class="bg-white py-12 px-6">
   <h2 class="text-2xl font-bold mb-6 text-center">Where I've Worked</h2>
-  <div class="flex overflow-x-auto space-x-6 pb-4">
-    {% for project in projects %}
-    <div class="min-w-[250px] bg-gray-50 rounded-2xl shadow-md p-4 flex-shrink-0">
-      <img src="static/images/{{ project.logo }}" alt="{{ project.company }} logo" class="w-24 h-24 object-contain mx-auto mb-4" />
-      <h3 class="text-center font-semibold mb-2">{{ project.company }}</h3>
-      <p class="text-sm text-center">{{ project.description }}</p>
+
+  <div class="relative">
+    <!-- Carousel container -->
+    <div id="carousel" class="flex gap-6 overflow-x-auto scroll-smooth pb-4 px-2 snap-x snap-mandatory scrollbar-hide">
+      {% for project in projects %}
+      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+        <img src="static/images/{{ project.logo }}" alt="{{ project.company }} logo"
+          class="w-24 h-24 object-contain mx-auto mb-4" />
+        <h3 class="text-center font-semibold mb-2">{{ project.company }}</h3>
+        <p class="text-sm text-center text-gray-700">{{ project.description }}</p>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>
+
+<script>
+  const carousel = document.getElementById('carousel');
+  let scrollAmount = 0;
+
+  function autoScroll() {
+    if (!carousel) return;
+    
+    const scrollWidth = carousel.scrollWidth;
+    const visibleWidth = carousel.clientWidth;
+
+    scrollAmount += 320; // Adjust to your card width + gap
+    if (scrollAmount + visibleWidth >= scrollWidth) {
+      scrollAmount = 0; // Reset to start
+    }
+
+    carousel.scrollTo({
+      left: scrollAmount,
+      behavior: 'smooth'
+    });
+  }
+
+  let scrollInterval = setInterval(autoScroll, 3000); // every 3s
+
+  // Optional: Pause auto-scroll when user interacts
+  carousel.addEventListener("mouseenter", () => clearInterval(scrollInterval));
+  carousel.addEventListener("mouseleave", () => {
+    scrollInterval = setInterval(autoScroll, 3000);
+  });
+</script>
+
+<!-- Hide scrollbar style -->
+<style>
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>
+
 
 <!-- Certifications Section -->
 <section class="bg-gray-100 py-12 px-6">

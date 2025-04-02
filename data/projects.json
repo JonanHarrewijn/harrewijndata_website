@@ -25,8 +25,8 @@
     "description": "Built Azure-based DWH with CI/CD pipelines in GitHub Actions. Integrated data from 10+ sources, implemented Kimball modeling, RLS/OLS, and stakeholder change management."
   },
   {
-    "company": "Scope Data / Partou B.V.",
-    "logo": "partou2.png",
+    "company": "Partou B.V.",
+    "logo": "partou.png",
     "description": "Integrated new ERP data into an existing DWH. Modeled new entities, performed data migration validation, MDM checks, and supported go/no-go for billing."
   },
   {
