@@ -1,11 +1,26 @@
 [
-    {
-      "name": "Azure Data Engineer Associate",
-      "logo": "azure.png"
-    },
-    {
-      "name": "Microsoft Power BI Data Analyst",
-      "logo": "powerbi.png"
-    }
-  ]
-  
+  {
+    "name": "DP-600 Fabric Analytics Engineer Associate",
+    "logo": "dp600.png"
+  },
+  {
+    "name": "DP-203 Data Engineering on Microsoft Azure",
+    "logo": "dp203.png"
+  },
+  {
+    "name": "PL-300 Microsoft Power BI Data Analyst",
+    "logo": "pl300.png"
+  },
+  {
+    "name": "AZ-900 Microsoft Azure Fundamentals",
+    "logo": "az900.png"
+  },
+  {
+    "name": "Databricks Lakehouse Fundamentals",
+    "logo": "databricks.png"
+  },
+  {
+    "name": "Agile Business Body of Knowledge (Scrum, Kanban etc.)",
+    "logo": "agile.png"
+  }
+]

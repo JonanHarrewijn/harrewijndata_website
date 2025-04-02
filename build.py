@@ -1,6 +1,7 @@
 from jinja2 import Environment, FileSystemLoader
 import json
 import os
+from datetime import datetime
 
 print("Running build.py...")
 
@@ -18,7 +19,8 @@ with open("data/certifications.json", encoding="utf-8") as f:
 template = env.get_template("index.html")
 rendered_html = template.render(
     projects=projects,
-    certifications=certifications
+    certifications=certifications,
+    current_year=datetime.now().year
 )
 
 # Write to output file
@@ -41,3 +43,4 @@ if os.path.exists(static_dest):
 # Copy again
 shutil.copytree(static_src, static_dest)
 print("✅ Copied static files to /docs")
+
