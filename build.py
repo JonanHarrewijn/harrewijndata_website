@@ -22,17 +22,17 @@ rendered_html = template.render(
 )
 
 # Write to output file
-os.makedirs("output", exist_ok=True)
-with open("output/index.html", "w", encoding="utf-8") as f:
+os.makedirs("docs", exist_ok=True)
+with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(rendered_html)
 
-print("✅ Site built at /output/index.html")
+print("✅ Site built at /docs/index.html")
 
 import shutil
 
 # Copy static files (e.g. images, css) into output/
 static_src = "static"
-static_dest = os.path.join("output", "static")
+static_dest = os.path.join("docs", "static")
 
 # Remove existing static folder if it exists
 if os.path.exists(static_dest):
@@ -40,4 +40,4 @@ if os.path.exists(static_dest):
 
 # Copy again
 shutil.copytree(static_src, static_dest)
-print("✅ Copied static files to /output")
+print("✅ Copied static files to /docs")
