@@ -3,8 +3,8 @@ body {
   background-color: #ffffff;
   background-image: repeating-linear-gradient(
       45deg,
-      #000 0,
-      #000 1px,
+      #e5e5e5 0,
+      #e5e5e5 1px,
       transparent 1px,
       transparent 8px
     );
