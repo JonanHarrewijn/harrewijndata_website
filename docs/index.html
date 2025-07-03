@@ -10,11 +10,11 @@
 <body>
   
 
-<section class="min-h-[75vh] flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-white to-blue-50 text-gray-800 px-6 py-16 animate-fade-in" style="animation-delay: 0.2s; background-image: url('static/images/background.webp'); background-size: cover; background-position: center;">
+<section class="min-h-[75vh] flex flex-col md:flex-row items-center justify-center text-gray-800 px-6 py-16 animate-fade-in text-outline">
   <div class="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
     <img src="static/images/profile.jpg" alt="My Photo" class="w-48 h-48 md:w-56 md:h-56 rounded-full shadow-2xl border-4 border-white object-cover" />
   </div>
-  <div class="w-full md:w-1/2 text-center md:text-left">
+  <div class="w-full md:w-1/2 text-center md:text-left overlay p-6 rounded-lg">
     <h1 class="text-4xl font-bold mb-3 leading-tight">
       Hi, I'm Jonan Harrewijn
     </h1>
@@ -153,8 +153,8 @@
 
 
 <!-- Identity Section -->
-<section class="bg-gradient-to-br from-white to-blue-50 text-gray-800 py-16 px-6 text-outline" style="background-image: url('static/images/background.webp'); background-size: cover; background-position: center;">
-  <div class="max-w-3xl mx-auto text-center space-y-4">
+<section class="py-16 px-6 text-outline">
+  <div class="max-w-3xl mx-auto text-center space-y-4 overlay p-6 rounded-lg">
     <h2 class="text-2xl font-bold">Who I Am</h2>
     <p class="text-base text-gray-700">Husband. Father of two. Seasoned Microsoft Fabric Data Engineering &amp; BI Professional. With an MSc in Operations Management &amp; Logistics and a suite of Azure and Fabric certifications, I design reliable data ecosystems that deliver clear, actionable insights. From medallion-based pipelines to live Fabric reports, I help organizations make informed decisions with confidence. I balance technical excellence—crafting robust ETL processes and governed PySpark workflows—with a collaborative style, guiding teams toward shared success. I’m not just competent—I’m consistently raising the bar in Fabric data engineering and BI.</p>
   </div>
@@ -162,91 +162,92 @@
 
 
 <!-- Projects Carousel -->
-<section id="projects" class="bg-gradient-to-br from-white to-yellow-50 py-12 px-6 text-outline" style="background-image: url('static/images/background.webp'); background-size: cover; background-position: center;">
-  <h2 class="text-2xl font-bold mb-6 text-center">Where I've Worked</h2>
+<section id="projects" class="py-12 px-6 text-outline">
+  <div class="overlay p-6 rounded-lg">
+    <h2 class="text-2xl font-bold mb-6 text-center">Where I've Worked</h2>
 
-  <div class="relative">
+    <div class="relative">
     <!-- Carousel container -->
     <div id="carousel" class="flex gap-6 overflow-x-auto scroll-smooth pb-4 px-2 snap-x snap-mandatory scrollbar-hide">
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/mbs.png" alt="MBS Groep logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">MBS Groep</h3>
         <p class="text-sm text-center text-gray-700">End-to-end DataWarehouse & Power BI implementation in Microsoft Fabric, including metadata-driven pipelines, medallion architecture, governance, and live monitoring reports.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/ssc_ons.png" alt="Shared Service Centrum Ons logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">Shared Service Centrum Ons</h3>
         <p class="text-sm text-center text-gray-700">Led redesign as Product Owner; built a centralized Microsoft Fabric DWH across 7 government partners, aligned standards (BIO2.0, WAF, WEF), and planned Purview integration.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/huisartsenposten.png" alt="Huisartsenposten OostBrabant logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">Huisartsenposten OostBrabant</h3>
         <p class="text-sm text-center text-gray-700">Designed and implemented a Fabric-based data platform with Kimball modeling, RLS, data quality automation, Balanced Scorecard reporting, and end-user training.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/partou.png" alt="Partou B.V. logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">Partou B.V.</h3>
         <p class="text-sm text-center text-gray-700">Re-engineered data models and MDM processes in a childcare context. Improved lineage tracking, optimized SQL performance, and integrated multi-source data.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/oxbo.png" alt="Oxbo B.V. logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">Oxbo B.V.</h3>
         <p class="text-sm text-center text-gray-700">Built Azure-based DWH with CI/CD pipelines in GitHub Actions. Integrated data from 10+ sources, implemented Kimball modeling, RLS/OLS, and stakeholder change management.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/partou.png" alt="Partou B.V. logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">Partou B.V.</h3>
         <p class="text-sm text-center text-gray-700">Integrated new ERP data into an existing DWH. Modeled new entities, performed data migration validation, MDM checks, and supported go/no-go for billing.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/otto.png" alt="OTTO B.V. logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">OTTO B.V.</h3>
         <p class="text-sm text-center text-gray-700">Migrated legacy ETL to Azure; designed metadata-based pipelines and used Python ML to analyze marketing and customer return prediction.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/vidaxl.png" alt="VidaXL logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">VidaXL</h3>
         <p class="text-sm text-center text-gray-700">Extended ETL pipelines for optimizing last-mile carrier selection using Qlikview; added business rules based on delivery speed and price.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/meg.png" alt="MEG logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">MEG</h3>
         <p class="text-sm text-center text-gray-700">Created MDM workflows in Power Apps/Power Flow for Certified Reporting. Designed role-based access, dashboards, and automated data entry approval processes.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/cratos.png" alt="Cratos logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">Cratos</h3>
         <p class="text-sm text-center text-gray-700">Full Power BI implementation for construction project insights. Connected APIs, automated data pipelines, and trained internal users.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/dit.png" alt="DIT Holding logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">DIT Holding</h3>
         <p class="text-sm text-center text-gray-700">Replaced Excel & Qlikview with centralized Power BI dashboards across departments. Built DAX calculations, conducted interviews, and optimized data flows.</p>
       </div>
       
-      <div class="min-w-[300px] max-w-[320px] bg-gray-50 rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
+      <div class="min-w-[300px] max-w-[320px] overlay rounded-2xl shadow-md p-6 flex-shrink-0 snap-start transition-transform duration-300 hover:scale-105">
         <img src="static/images/boskalis.png" alt="Boskalis logo"
           class="w-24 h-24 object-contain mx-auto mb-4" />
         <h3 class="text-center font-semibold mb-2">Boskalis</h3>
@@ -300,51 +301,53 @@
 
 
 <!-- Certifications Section -->
-<section class="bg-gray-100 py-16 px-6 text-outline" style="background-image: url('static/images/background.webp'); background-size: cover; background-position: center;">
-  <h2 class="text-2xl font-bold mb-10 text-center">Certifications</h2>
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center items-center">
-    
-    <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
-      <img src="static/images/dp600.png" alt="DP-600 Fabric Analytics Engineer Associate logo" class="w-16 h-16 object-contain mb-2" />
-      <p class="text-sm text-gray-800">DP-600 Fabric Analytics Engineer Associate</p>
+<section class="py-16 px-6 text-outline">
+  <div class="overlay p-6 rounded-lg">
+    <h2 class="text-2xl font-bold mb-10 text-center">Certifications</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center items-center">
+      
+      <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
+        <img src="static/images/dp600.png" alt="DP-600 Fabric Analytics Engineer Associate logo" class="w-16 h-16 object-contain mb-2" />
+        <p class="text-sm text-gray-800">DP-600 Fabric Analytics Engineer Associate</p>
+      </div>
+      
+      <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
+        <img src="static/images/dp600.png" alt="DP-700 Fabric Data Engineer Associate logo" class="w-16 h-16 object-contain mb-2" />
+        <p class="text-sm text-gray-800">DP-700 Fabric Data Engineer Associate</p>
+      </div>
+      
+      <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
+        <img src="static/images/dp203.png" alt="DP-203 Data Engineering on Microsoft Azure logo" class="w-16 h-16 object-contain mb-2" />
+        <p class="text-sm text-gray-800">DP-203 Data Engineering on Microsoft Azure</p>
+      </div>
+      
+      <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
+        <img src="static/images/pl300.png" alt="PL-300 Microsoft Power BI Data Analyst logo" class="w-16 h-16 object-contain mb-2" />
+        <p class="text-sm text-gray-800">PL-300 Microsoft Power BI Data Analyst</p>
+      </div>
+      
+      <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
+        <img src="static/images/az900.png" alt="AZ-900 Microsoft Azure Fundamentals logo" class="w-16 h-16 object-contain mb-2" />
+        <p class="text-sm text-gray-800">AZ-900 Microsoft Azure Fundamentals</p>
+      </div>
+      
+      <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
+        <img src="static/images/databricks.png" alt="Databricks Lakehouse Fundamentals logo" class="w-16 h-16 object-contain mb-2" />
+        <p class="text-sm text-gray-800">Databricks Lakehouse Fundamentals</p>
+      </div>
+      
+      <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
+        <img src="static/images/agile.png" alt="Agile Business Body of Knowledge (Scrum, Kanban etc.) logo" class="w-16 h-16 object-contain mb-2" />
+        <p class="text-sm text-gray-800">Agile Business Body of Knowledge (Scrum, Kanban etc.)</p>
+      </div>
+      
     </div>
-    
-    <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
-      <img src="static/images/dp600.png" alt="DP-700 Fabric Data Engineer Associate logo" class="w-16 h-16 object-contain mb-2" />
-      <p class="text-sm text-gray-800">DP-700 Fabric Data Engineer Associate</p>
-    </div>
-    
-    <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
-      <img src="static/images/dp203.png" alt="DP-203 Data Engineering on Microsoft Azure logo" class="w-16 h-16 object-contain mb-2" />
-      <p class="text-sm text-gray-800">DP-203 Data Engineering on Microsoft Azure</p>
-    </div>
-    
-    <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
-      <img src="static/images/pl300.png" alt="PL-300 Microsoft Power BI Data Analyst logo" class="w-16 h-16 object-contain mb-2" />
-      <p class="text-sm text-gray-800">PL-300 Microsoft Power BI Data Analyst</p>
-    </div>
-    
-    <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
-      <img src="static/images/az900.png" alt="AZ-900 Microsoft Azure Fundamentals logo" class="w-16 h-16 object-contain mb-2" />
-      <p class="text-sm text-gray-800">AZ-900 Microsoft Azure Fundamentals</p>
-    </div>
-    
-    <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
-      <img src="static/images/databricks.png" alt="Databricks Lakehouse Fundamentals logo" class="w-16 h-16 object-contain mb-2" />
-      <p class="text-sm text-gray-800">Databricks Lakehouse Fundamentals</p>
-    </div>
-    
-    <div class="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
-      <img src="static/images/agile.png" alt="Agile Business Body of Knowledge (Scrum, Kanban etc.) logo" class="w-16 h-16 object-contain mb-2" />
-      <p class="text-sm text-gray-800">Agile Business Body of Knowledge (Scrum, Kanban etc.)</p>
-    </div>
-    
   </div>
 </section>
 
 <!-- Footer -->
-<footer class="bg-gradient-to-br from-white to-blue-50 text-gray-800 py-8 mt-16">
-  <div class="max-w-4xl mx-auto px-6 text-center">
+<footer class="text-gray-800 py-8 mt-16">
+  <div class="max-w-4xl mx-auto px-6 text-center overlay rounded-lg p-6">
     <p class="text-lg font-semibold mb-2">Let's connect</p>
     <p class="text-sm mb-4">
       📧 <a href="mailto:jonanharrewijn@hotmail.com" class="underline hover:text-blue-400">jonanharrewijn@hotmail.com</a><br>
