@@ -30,6 +30,13 @@ with open("docs/index.html", "w", encoding="utf-8") as f:
 
 print("✅ Site built at /docs/index.html")
 
+# Render the fabric page
+fabric_template = env.get_template("fabric.html")
+fabric_html = fabric_template.render(current_year=datetime.now().year)
+with open("docs/fabric.html", "w", encoding="utf-8") as f:
+    f.write(fabric_html)
+print("✅ Fabric page built at /docs/fabric.html")
+
 import shutil
 
 # Copy static files (e.g. images, css) into output/
