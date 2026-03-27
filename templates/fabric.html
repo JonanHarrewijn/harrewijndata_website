@@ -1,0 +1,381 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Fade-in animation -->
+<style>
+  .animate-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  @keyframes fadeIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .step-connector {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(to right, #3b82f6, #1d4ed8);
+    margin: 0 12px;
+    margin-top: 24px;
+  }
+</style>
+
+<!-- Top nav -->
+<div class="overlay px-6 py-3 flex items-center justify-between sticky top-0 z-50 shadow-sm">
+  <a href="index.html" class="flex items-center gap-2 text-blue-700 font-semibold hover:text-blue-900 transition text-sm">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+    Back to Portfolio
+  </a>
+  <span class="text-gray-700 text-sm hidden md:block">Jonan Harrewijn · Microsoft Fabric Specialist</span>
+</div>
+
+<!-- Hero -->
+<section class="min-h-[55vh] flex flex-col items-center justify-center text-center px-6 py-20 animate-fade-in">
+  <div class="overlay p-10 rounded-2xl max-w-3xl">
+    <p class="text-blue-700 font-semibold uppercase tracking-widest text-sm mb-3">Fabric ETL Framework</p>
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+      Define it once.<br/>Run it everywhere.
+    </h1>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed mb-8">
+      Stop hand-coding pipelines for every new data source. Fabric ETL is a metadata-driven,
+      medallion-architecture framework built on Microsoft Fabric. Declare your data flow once in the
+      Registry — the framework handles ingestion, quality, orchestration, and delivery to Power BI automatically.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="mailto:jonanharrewijn@hotmail.com"
+         class="bg-blue-600 text-white px-8 py-3 rounded-full shadow hover:bg-blue-700 transition font-semibold">
+        Talk to an Expert
+      </a>
+      <a href="index.html#projects"
+         class="border-2 border-blue-600 text-blue-700 px-8 py-3 rounded-full hover:bg-blue-50 transition font-semibold">
+        See Deployments
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- The Problem -->
+<section class="py-16 px-6 overlay">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-2">The Problem With Traditional ETL</h2>
+    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+      Every new data source means new custom code. Every schema change breaks something. Every deployment is a manual ritual. Sound familiar?
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <div class="bg-white/70 rounded-2xl shadow p-6">
+        <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-800 mb-2">Copy-Paste Engineering</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Each new source gets a near-identical notebook. Multiply that by 10 clients, and you're maintaining a maintenance nightmare. One schema change means touching every file manually.
+        </p>
+      </div>
+
+      <div class="bg-white/70 rounded-2xl shadow p-6">
+        <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-800 mb-2">Silent Failures</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Data quality errors get buried. A null value slips through, a format changes upstream, and nobody knows until the report is wrong. By then the damage is done.
+        </p>
+      </div>
+
+      <div class="bg-white/70 rounded-2xl shadow p-6">
+        <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mb-4">
+          <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-gray-800 mb-2">Risky Deployments</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Promoting from DEV to production is a manual checklist. Changes are undocumented. Rollbacks are painful. Every release is a gamble.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Framework Pillars -->
+<section class="py-16 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-2">The Framework</h2>
+    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+      Four layers. One consistent flow. Configured in code — not wired by hand every time.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- Registry -->
+      <div class="overlay rounded-2xl shadow-md p-8 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 5.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/>
+            </svg>
+          </div>
+          <div>
+            <p class="text-xs text-blue-600 font-semibold uppercase tracking-wide">Layer 1</p>
+            <h3 class="text-xl font-bold text-gray-800">The Registry</h3>
+          </div>
+        </div>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          The single source of truth for your entire data platform. Define each source table once — schema, column mappings, data quality rules, merge strategy, Gold transformations, dependencies — all in one Python object.
+        </p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Add a new source with a config entry, not a new notebook</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Schema changes propagate automatically</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Every pipeline behaviour version-controlled and auditable</li>
+        </ul>
+      </div>
+
+      <!-- Bronze → Silver → Gold -->
+      <div class="overlay rounded-2xl shadow-md p-8 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"/>
+            </svg>
+          </div>
+          <div>
+            <p class="text-xs text-blue-600 font-semibold uppercase tracking-wide">Layers 2 &amp; 3</p>
+            <h3 class="text-xl font-bold text-gray-800">Silver &amp; Gold Lakehouses</h3>
+          </div>
+        </div>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Raw data lands in Bronze as-is. The Silver layer standardises, validates, and deduplicates it. The Gold layer transforms Silver into Power BI-ready dimensional models — star schemas with aggregations and business logic already applied.
+        </p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Bronze: raw, immutable source records</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Silver: cleaned, typed, deduplicated</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Gold: dimensional models optimised for fast reporting</li>
+        </ul>
+      </div>
+
+      <!-- Data Quality -->
+      <div class="overlay rounded-2xl shadow-md p-8 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="text-xs text-blue-600 font-semibold uppercase tracking-wide">Built-in</p>
+            <h3 class="text-xl font-bold text-gray-800">Enterprise Data Quality</h3>
+          </div>
+        </div>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Six rule types enforced automatically on every run: type casting, regex patterns, value ranges, uniqueness checks, row count thresholds, and Dutch BSN checksum validation. Blocking rules stop bad data; non-blocking rules log warnings with a full audit trail.
+        </p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Every DQ violation logged with context</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> PII masked at column level (hash or partial)</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Compliance-grade for healthcare &amp; finance</li>
+        </ul>
+      </div>
+
+      <!-- Orchestration -->
+      <div class="overlay rounded-2xl shadow-md p-8 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"/>
+            </svg>
+          </div>
+          <div>
+            <p class="text-xs text-blue-600 font-semibold uppercase tracking-wide">Layer 4</p>
+            <h3 class="text-xl font-bold text-gray-800">Automatic Orchestration</h3>
+          </div>
+        </div>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          The orchestration engine reads the Registry, builds a dependency graph automatically, and executes parallel batches of up to 8 jobs. Tables run in the right order, every time, without manual coordination. SCD Type 2 history tracking is a config option, not a custom build.
+        </p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> DAG-based dependency resolution</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> OVERWRITE, MERGE, MERGE_HASH, SCD Type 2</li>
+          <li class="flex items-start gap-2"><span class="text-blue-500 font-bold mt-0.5">✓</span> Automated DEV → TST, manual-gated PRD promotion</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- How it Works -->
+<section class="py-16 px-6 overlay">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-2">How It Works</h2>
+    <p class="text-center text-gray-600 mb-12 max-w-xl mx-auto">
+      From raw source data to a Power BI dashboard — without writing a single one-off pipeline.
+    </p>
+
+    <div class="flex flex-col md:flex-row items-start justify-between gap-6">
+
+      <div class="flex-1 flex flex-col items-center text-center">
+        <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg mb-4 shadow-md">1</div>
+        <h3 class="font-bold text-gray-800 mb-2">Register</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">Define your source system in the Registry — name, schema, load type, quality rules, transformations. One config object, everything declared.</p>
+      </div>
+
+      <div class="step-connector hidden md:block mt-0"></div>
+
+      <div class="flex-1 flex flex-col items-center text-center">
+        <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg mb-4 shadow-md">2</div>
+        <h3 class="font-bold text-gray-800 mb-2">Orchestrate</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">The framework reads the Registry, resolves dependencies, and runs Bronze → Silver → Gold automatically in parallel batches. No manual wiring.</p>
+      </div>
+
+      <div class="step-connector hidden md:block mt-0"></div>
+
+      <div class="flex-1 flex flex-col items-center text-center">
+        <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg mb-4 shadow-md">3</div>
+        <h3 class="font-bold text-gray-800 mb-2">Report</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">Power BI connects directly to Gold layer semantic models. Dashboards refresh on schedule. Stakeholders get accurate, up-to-date data every time.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Business outcomes -->
+<section class="py-16 px-6">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-2">What This Delivers For Your Organisation</h2>
+    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+      The framework was designed with enterprise outcomes in mind — not just developer convenience.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <div class="overlay rounded-2xl shadow p-6">
+        <div class="text-3xl font-black text-blue-600 mb-2">Hours</div>
+        <h3 class="font-bold text-gray-800 mb-2">To onboard a new data source</h3>
+        <p class="text-sm text-gray-600">Add a Registry entry, run the pipeline. No new notebooks, no new deployments.</p>
+      </div>
+
+      <div class="overlay rounded-2xl shadow p-6">
+        <div class="text-3xl font-black text-blue-600 mb-2">Zero</div>
+        <h3 class="font-bold text-gray-800 mb-2">Silent data quality failures</h3>
+        <p class="text-sm text-gray-600">Every run logged. Every DQ violation captured. Your audit trail is always complete.</p>
+      </div>
+
+      <div class="overlay rounded-2xl shadow p-6">
+        <div class="text-3xl font-black text-blue-600 mb-2">Full</div>
+        <h3 class="font-bold text-gray-800 mb-2">History retention with SCD Type 2</h3>
+        <p class="text-sm text-gray-600">Track how every record changed over time. Retroactive analysis and regulatory compliance built in.</p>
+      </div>
+
+      <div class="overlay rounded-2xl shadow p-6">
+        <div class="text-3xl font-black text-blue-600 mb-2">Auto</div>
+        <h3 class="font-bold text-gray-800 mb-2">Schema evolution</h3>
+        <p class="text-sm text-gray-600">Upstream added a column? The framework detects and applies it automatically. No emergency fixes.</p>
+      </div>
+
+      <div class="overlay rounded-2xl shadow p-6">
+        <div class="text-3xl font-black text-blue-600 mb-2">Built-in</div>
+        <h3 class="font-bold text-gray-800 mb-2">PII masking &amp; privacy compliance</h3>
+        <p class="text-sm text-gray-600">Sensitive columns hashed or partially masked at the framework level. AVG/GDPR-ready by design.</p>
+      </div>
+
+      <div class="overlay rounded-2xl shadow p-6">
+        <div class="text-3xl font-black text-blue-600 mb-2">Gated</div>
+        <h3 class="font-bold text-gray-800 mb-2">Production deployments</h3>
+        <p class="text-sm text-gray-600">DEV → TST automated via Azure Pipelines. ACC → PRD requires a manual approval gate. No surprises in production.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Production proven -->
+<section class="py-16 px-6 overlay">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-10">Production-Proven</h2>
+    <div class="bg-white/80 rounded-2xl shadow-md p-8 flex flex-col md:flex-row gap-8 items-start">
+      <div class="flex-shrink-0 flex items-center justify-center w-16 h-16 bg-blue-100 rounded-xl">
+        <svg class="w-8 h-8 text-blue-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/>
+        </svg>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Dutch Healthcare — MedMij Integration Platform</h3>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          The framework powers a live healthcare data integration platform in the Netherlands, ingesting multi-format source data from provider systems, enforcing healthcare-grade data quality rules (including BSN checksum validation), and serving dimensional models for downstream analytics — all running automatically on Microsoft Fabric.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">Healthcare</span>
+          <span class="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">Multi-format ingestion</span>
+          <span class="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">DQ enforcement</span>
+          <span class="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">Dimensional modelling</span>
+          <span class="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">Microsoft Fabric</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tech stack + certifications -->
+<section class="py-16 px-6">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-2xl font-bold mb-4">Built on a Certified Stack</h2>
+    <p class="text-gray-600 mb-8 max-w-xl mx-auto">
+      The framework is built on Microsoft Fabric and the broader Azure data platform — and Jonan is certified across the full stack.
+    </p>
+
+    <!-- Tech tags -->
+    <div class="flex flex-wrap justify-center gap-3 mb-10">
+      {% for tech in ["Microsoft Fabric", "PySpark", "Delta Lake", "Azure Pipelines", "Azure Key Vault", "Azure DevOps", "Python", "Power BI"] %}
+      <span class="overlay border border-blue-200 text-blue-800 text-sm font-medium px-4 py-2 rounded-full shadow-sm">{{ tech }}</span>
+      {% endfor %}
+    </div>
+
+    <!-- Cert badges -->
+    <div class="flex flex-wrap justify-center gap-6 items-center">
+      {% for cert in ["dp600.png", "dp600.png", "dp203.png", "pl300.png", "az900.png"] %}
+      <div class="flex items-center justify-center h-16 w-16 transition-transform duration-300 hover:scale-110">
+        <img src="static/images/{{ cert }}" alt="Microsoft certification badge" class="max-h-full object-contain" onerror="this.parentElement.style.display='none'"/>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="text-sm text-gray-500 mt-4">DP-600 · DP-700 · DP-203 · PL-300 · AZ-900</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 px-6 overlay">
+  <div class="max-w-2xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-900 mb-4">Ready to deploy?</h2>
+    <p class="text-gray-700 text-lg mb-8 leading-relaxed">
+      Whether you're starting a new Fabric project or inheriting a brittle pipeline mess — let's talk about bringing this framework to your organisation.
+    </p>
+    <a href="mailto:jonanharrewijn@hotmail.com"
+       class="bg-blue-600 text-white px-10 py-4 rounded-full shadow-lg hover:bg-blue-700 transition text-lg font-semibold">
+      Get in Touch
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-gray-800 py-8 mt-4 overlay">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <p class="text-lg font-semibold mb-2">Let's connect</p>
+    <p class="text-sm mb-4">
+      📧 <a href="mailto:jonanharrewijn@hotmail.com" class="underline hover:text-blue-400">jonanharrewijn@hotmail.com</a><br>
+      📱 <a href="tel:+31641270903" class="hover:text-blue-400">+31 6 41270903</a>
+    </p>
+    <hr class="my-4 border-gray-300" />
+    <p class="text-xs text-gray-600">
+      © {{ current_year }} Jonan Harrewijn. Built with Python, Jinja2 &amp; 💙
+    </p>
+  </div>
+</footer>
+
+{% endblock %}
