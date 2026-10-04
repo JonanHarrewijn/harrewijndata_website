@@ -10,7 +10,9 @@
     "primary_cta": "Discuss your data challenge",
     "secondary_cta": "View selected work",
     "image": "profile.jpg",
-    "image_alt": "Jonan Harrewijn, data consultant"
+    "image_alt": "Jonan Harrewijn, data consultant",
+    "focus_label": "Focus",
+    "focus": "Strategy, governance, process improvement & delivery"
   },
   "services_intro": {
     "eyebrow": "Services",
@@ -197,19 +199,19 @@
       "text": "At Vecozo, an AI solution reduced the duration of a labour-intensive process by 90%."
     },
     {
-      "value": "4 TB",
-      "label": "data platform scale",
-      "text": "Designed and built a Microsoft Fabric platform processing approximately 4 TB of healthcare data."
-    },
-    {
-      "value": "600M",
-      "label": "log records processed",
-      "text": "The MedMij data platform handles around 600 million log records as part of a production healthcare environment."
+      "value": "8",
+      "label": "public-sector partners aligned",
+      "text": "Requirements from seven municipalities and the Province of Overijssel were harmonised into one shared functional design and technical direction."
     },
     {
       "value": "10+",
-      "label": "source systems integrated",
-      "text": "Integrated more than ten source systems into an Azure data warehouse for inventory, margin and SG&A reporting."
+      "label": "source systems brought together",
+      "text": "Integrated more than ten source systems into one governed data environment to support consistent management information."
+    },
+    {
+      "value": "4 TB",
+      "label": "production data platform scale",
+      "text": "Designed and built a Microsoft Fabric platform processing approximately 4 TB of healthcare data."
     }
   ]
 }
