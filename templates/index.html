@@ -95,6 +95,16 @@
         <p>{{ site.proof.text }}</p>
       </div>
 
+      <div class="proof-metrics">
+        {% for metric in site.proof_metrics %}
+        <div class="proof-metric">
+          <strong>{{ metric.value }}</strong>
+          <span>{{ metric.label }}</span>
+          <p>{{ metric.text }}</p>
+        </div>
+        {% endfor %}
+      </div>
+
       <div class="case-grid">
         {% for case in site.featured_cases %}
         <article class="case-card">
@@ -106,6 +116,12 @@
             <img src="static/images/{{ case.logo }}" alt="{{ case.company }}">
           </div>
           <p>{{ case.text }}</p>
+          {% if case.result %}
+          <div class="case-result">
+            <span>Result</span>
+            <strong>{{ case.result }}</strong>
+          </div>
+          {% endif %}
           <div class="tag-row">
             {% for tag in case.tags %}<span>{{ tag }}</span>{% endfor %}
           </div>
