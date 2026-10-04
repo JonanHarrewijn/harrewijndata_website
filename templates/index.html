@@ -75,7 +75,7 @@
           <h3>{{ service.title }}</h3>
           <p>{{ service.text }}</p>
           <ul>
-            {% for item in service.items %}
+            {% for item in service["items"] %}
             <li>{{ item }}</li>
             {% endfor %}
           </ul>
