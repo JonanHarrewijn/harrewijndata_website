@@ -22,25 +22,41 @@
       "number": "01",
       "title": "Data strategy & architecture",
       "text": "Turn business goals into a pragmatic target architecture, roadmap and governance model for your data platform.",
-      "items": ["Platform assessment", "Target architecture", "Roadmap & governance"]
+      "items": [
+        "Platform assessment",
+        "Target architecture",
+        "Roadmap & governance"
+      ]
     },
     {
       "number": "02",
       "title": "Microsoft Fabric implementation",
       "text": "Build governed, scalable Fabric platforms with reusable ingestion, medallion architecture, quality controls and CI/CD.",
-      "items": ["Fabric & OneLake", "Metadata-driven ETL", "DevOps & monitoring"]
+      "items": [
+        "Fabric & OneLake",
+        "Metadata-driven ETL",
+        "DevOps & monitoring"
+      ]
     },
     {
       "number": "03",
       "title": "BI & decision support",
       "text": "Create semantic models and Power BI solutions that give teams one trusted view of performance and decisions.",
-      "items": ["Power BI architecture", "KPI & scorecards", "Self-service BI"]
+      "items": [
+        "Power BI architecture",
+        "KPI & scorecards",
+        "Self-service BI"
+      ]
     },
     {
       "number": "04",
       "title": "Data quality & governance",
       "text": "Make ownership, lineage, security and data quality part of daily operations instead of an afterthought.",
-      "items": ["Data quality controls", "Security & RLS", "Standards & ownership"]
+      "items": [
+        "Data quality controls",
+        "Security & RLS",
+        "Standards & ownership"
+      ]
     }
   ],
   "proof": {
@@ -49,12 +65,30 @@
     "text": "Experience spans healthcare, public services, childcare, manufacturing, logistics and construction — from greenfield platforms to complex migrations."
   },
   "client_logos": [
-    {"name": "MBS Groep", "logo": "mbs.png"},
-    {"name": "SSC Ons", "logo": "ssc_ons.png"},
-    {"name": "Huisartsenposten Oost-Brabant", "logo": "huisartsenposten.png"},
-    {"name": "Partou", "logo": "partou.png"},
-    {"name": "Oxbo", "logo": "oxbo.png"},
-    {"name": "OTTO", "logo": "otto.png"}
+    {
+      "name": "MBS Groep",
+      "logo": "mbs.png"
+    },
+    {
+      "name": "SSC Ons",
+      "logo": "ssc_ons.png"
+    },
+    {
+      "name": "Huisartsenposten Oost-Brabant",
+      "logo": "huisartsenposten.png"
+    },
+    {
+      "name": "Partou",
+      "logo": "partou.png"
+    },
+    {
+      "name": "Oxbo",
+      "logo": "oxbo.png"
+    },
+    {
+      "name": "OTTO",
+      "logo": "otto.png"
+    }
   ],
   "featured_cases": [
     {
@@ -63,7 +97,12 @@
       "title": "A governed Fabric platform for reliable operational insight",
       "text": "Designed and implemented a Microsoft Fabric data platform with dimensional modelling, row-level security, automated data quality checks, scorecard reporting and end-user enablement.",
       "logo": "huisartsenposten.png",
-      "tags": ["Microsoft Fabric", "Power BI", "Data quality"]
+      "tags": [
+        "Microsoft Fabric",
+        "Power BI",
+        "Data quality"
+      ],
+      "result": "Four reporting domains — Care, HR, Finance and Quality — brought onto one governed platform, including management reporting based on the Balanced Scorecard."
     },
     {
       "sector": "Public services",
@@ -71,7 +110,12 @@
       "title": "One data foundation across seven government partners",
       "text": "Led the redesign of a centralised Fabric data warehouse, aligning platform choices with public-sector standards, governance requirements and a roadmap toward Purview.",
       "logo": "ssc_ons.png",
-      "tags": ["Architecture", "Governance", "Fabric"]
+      "tags": [
+        "Architecture",
+        "Governance",
+        "Fabric"
+      ],
+      "result": "Requirements from multiple autonomous public-sector partners were harmonised into one functional design and one technical direction."
     },
     {
       "sector": "Industry",
@@ -79,17 +123,34 @@
       "title": "From source systems to governed reporting in Fabric",
       "text": "Delivered an end-to-end data warehouse and Power BI implementation with metadata-driven pipelines, medallion architecture, governance and operational monitoring.",
       "logo": "mbs.png",
-      "tags": ["Data engineering", "Medallion", "Power BI"]
+      "tags": [
+        "Data engineering",
+        "Medallion",
+        "Power BI"
+      ],
+      "result": "Multiple business domains and reports were consolidated onto one central reusable data model with live data-quality monitoring."
     }
   ],
   "approach": {
     "eyebrow": "How I work",
     "title": "Clear direction. Short feedback loops. Transfer to your team.",
     "steps": [
-      {"title": "Understand", "text": "Align on the business question, users, risks and current platform."},
-      {"title": "Design", "text": "Choose the smallest architecture that can scale with your organisation."},
-      {"title": "Deliver", "text": "Build iteratively with visible results, quality checks and deployment discipline."},
-      {"title": "Embed", "text": "Document, train and transfer ownership so the solution remains maintainable."}
+      {
+        "title": "Understand",
+        "text": "Align on the business question, users, risks and current platform."
+      },
+      {
+        "title": "Design",
+        "text": "Choose the smallest architecture that can scale with your organisation."
+      },
+      {
+        "title": "Deliver",
+        "text": "Build iteratively with visible results, quality checks and deployment discipline."
+      },
+      {
+        "title": "Embed",
+        "text": "Document, train and transfer ownership so the solution remains maintainable."
+      }
     ]
   },
   "about": {
@@ -99,9 +160,24 @@
     "text": "I work at the intersection of architecture, engineering and stakeholder needs. My background in Operations Management & Logistics helps me translate operational questions into practical data solutions, while my technical work focuses on robust pipelines, dimensional models, governance and reporting.",
     "image": "Persoonlijk.jpg",
     "image_alt": "Jonan Harrewijn",
-    "highlights": ["Microsoft Fabric & Azure", "Power BI & semantic models", "Data engineering & architecture", "Governance & delivery"]
+    "highlights": [
+      "Microsoft Fabric & Azure",
+      "Power BI & semantic models",
+      "Data engineering & architecture",
+      "Governance & delivery"
+    ]
   },
-  "expertise": ["Microsoft Fabric", "Azure", "Power BI", "Python", "PySpark", "SQL", "Delta Lake", "CI/CD", "Data governance"],
+  "expertise": [
+    "Microsoft Fabric",
+    "Azure",
+    "Power BI",
+    "Python",
+    "PySpark",
+    "SQL",
+    "Delta Lake",
+    "CI/CD",
+    "Data governance"
+  ],
   "cta": {
     "eyebrow": "Have a data challenge?",
     "title": "Let’s turn it into a concrete next step.",
@@ -113,5 +189,27 @@
     "phone_display": "+31 6 41270903",
     "phone_link": "+31641270903",
     "linkedin": ""
-  }
+  },
+  "proof_metrics": [
+    {
+      "value": "90%",
+      "label": "shorter process duration",
+      "text": "A labour-intensive process was accelerated with an AI solution, reducing its duration by 90%."
+    },
+    {
+      "value": "4 TB",
+      "label": "data platform scale",
+      "text": "Designed and built a Microsoft Fabric platform processing approximately 4 TB of healthcare data."
+    },
+    {
+      "value": "600M",
+      "label": "log records processed",
+      "text": "The MedMij data platform handles around 600 million log records as part of a production healthcare environment."
+    },
+    {
+      "value": "10+",
+      "label": "source systems integrated",
+      "text": "Integrated more than ten source systems into an Azure data warehouse for inventory, margin and SG&A reporting."
+    }
+  ]
 }
