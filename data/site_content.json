@@ -213,5 +213,18 @@
       "label": "production data platform scale",
       "text": "Designed and built a Microsoft Fabric platform processing approximately 4 TB of healthcare data."
     }
-  ]
+  ],
+  "meta_title": "Harrewijn Data | Data consulting & process improvement",
+  "labels": {
+    "nav_services": "Services",
+    "nav_work": "Work",
+    "nav_approach": "Approach",
+    "nav_about": "About",
+    "nav_fabric": "Fabric framework",
+    "contact": "Contact",
+    "experience_with": "Experience with organisations including",
+    "result": "Result",
+    "more_experience": "More client experience available on request.",
+    "discuss_similar": "Discuss a similar challenge"
+  }
 }
