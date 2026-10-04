@@ -11,13 +11,18 @@
       </span>
     </a>
     <nav class="nav-links">
-      <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#approach">Approach</a>
-      <a href="#about">About</a>
-      <a href="fabric.html">Fabric framework</a>
+      <a href="#services">{{ site.labels.nav_services }}</a>
+      <a href="#work">{{ site.labels.nav_work }}</a>
+      <a href="#approach">{{ site.labels.nav_approach }}</a>
+      <a href="#about">{{ site.labels.nav_about }}</a>
+      <a href="fabric.html">{{ site.labels.nav_fabric }}</a>
     </nav>
-    <a class="button button-dark header-cta" href="mailto:{{ site.contact.email }}">Contact</a>
+    <div class="language-switch" aria-label="Language">
+      <a href="index.html" class="{% if page_lang == 'en' %}active{% endif %}" lang="en">EN</a>
+      <span>/</span>
+      <a href="nl.html" class="{% if page_lang == 'nl' %}active{% endif %}" lang="nl">NL</a>
+    </div>
+    <a class="button button-dark header-cta" href="mailto:{{ site.contact.email }}">{{ site.labels.contact }}</a>
   </div>
 </header>
 
@@ -47,7 +52,7 @@
 
   <section class="logo-strip">
     <div class="container-shell">
-      <p class="strip-label">Experience with organisations including</p>
+      <p class="strip-label">{{ site.labels.experience_with }}</p>
       <div class="logo-grid">
         {% for client in site.client_logos %}
         <div class="logo-cell">
@@ -118,7 +123,7 @@
           <p>{{ case.text }}</p>
           {% if case.result %}
           <div class="case-result">
-            <span>Result</span>
+            <span>{{ site.labels.result }}</span>
             <strong>{{ case.result }}</strong>
           </div>
           {% endif %}
@@ -130,8 +135,8 @@
       </div>
 
       <div class="case-footer">
-        <span>More client experience available on request.</span>
-        <a href="mailto:{{ site.contact.email }}" class="text-link text-link-light">Discuss a similar challenge →</a>
+        <span>{{ site.labels.more_experience }}</span>
+        <a href="mailto:{{ site.contact.email }}" class="text-link text-link-light">{{ site.labels.discuss_similar }} →</a>
       </div>
     </div>
   </section>
