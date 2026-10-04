@@ -158,3 +158,63 @@ a{color:inherit;text-decoration:none}
   .footer-contact{text-align:left}
   .highlight-grid{grid-template-columns:1fr}
 }
+.proof-metrics{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:1px;
+  background:#34413d;
+  margin:0 0 44px;
+  border:1px solid #34413d;
+}
+.proof-metric{
+  background:#1c2723;
+  padding:28px 24px 30px;
+  min-height:220px;
+}
+.proof-metric strong{
+  display:block;
+  font-size:clamp(2.4rem,4vw,4.4rem);
+  line-height:1;
+  letter-spacing:-.04em;
+  color:#fff;
+}
+.proof-metric span{
+  display:block;
+  margin-top:10px;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  font-size:.7rem;
+  font-weight:800;
+  color:#ff9a73;
+}
+.proof-metric p{
+  margin:20px 0 0;
+  color:#bdc8c4;
+  font-size:.88rem;
+  line-height:1.55;
+}
+.case-result{
+  border-top:1px solid #43514d;
+  padding-top:18px;
+  margin:0 0 22px;
+}
+.case-result span{
+  display:block;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  font-size:.68rem;
+  color:#ff9a73;
+  margin-bottom:6px;
+}
+.case-result strong{
+  display:block;
+  font-size:.96rem;
+  line-height:1.5;
+  color:#fff;
+}
+@media (max-width:980px){
+  .proof-metrics{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:640px){
+  .proof-metrics{grid-template-columns:1fr}
+}
