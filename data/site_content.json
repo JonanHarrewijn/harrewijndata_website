@@ -1,12 +1,12 @@
 {
   "brand": {
     "name": "Harrewijn Data",
-    "tagline": "Data consulting for organisations that want reliable decisions."
+    "tagline": "Data consulting for better decisions, better processes and sustainable change."
   },
   "hero": {
-    "eyebrow": "Microsoft Fabric · Data Platforms · Business Intelligence",
-    "title": "From complex data to a platform your organisation can trust.",
-    "intro": "Harrewijn Data helps organisations design, build and improve modern data platforms. Strategy and architecture are connected directly to implementation, so teams get reliable data, clear reporting and a foundation that can scale.",
+    "eyebrow": "Data Strategy · Process Improvement · Data Platforms",
+    "title": "Better decisions start with better data and better processes.",
+    "intro": "Harrewijn Data helps organisations improve the way they work with data — from strategy, governance and stakeholder alignment to process redesign and implementation. The goal is not technology for its own sake, but clearer decisions, more efficient processes and solutions that teams can actually sustain.",
     "primary_cta": "Discuss your data challenge",
     "secondary_cta": "View selected work",
     "image": "profile.jpg",
@@ -14,55 +14,55 @@
   },
   "services_intro": {
     "eyebrow": "Services",
-    "title": "Advice that gets implemented.",
-    "text": "From architecture to adoption, I combine hands-on engineering with consulting so the solution works technically and in the organisation."
+    "title": "From organisational challenge to working solution.",
+    "text": "I combine consulting, business analysis and hands-on delivery. That means understanding how people work today, aligning stakeholders on what needs to change, and translating that into practical improvements that can be implemented and maintained."
   },
   "services": [
     {
       "number": "01",
       "title": "Data strategy & architecture",
-      "text": "Turn business goals into a pragmatic target architecture, roadmap and governance model for your data platform.",
+      "text": "Translate business goals into a clear data direction, target operating model and pragmatic roadmap that stakeholders can understand and support.",
       "items": [
-        "Platform assessment",
-        "Target architecture",
-        "Roadmap & governance"
+        "Stakeholder & requirements alignment",
+        "Target architecture & roadmap",
+        "Decision-making principles"
       ]
     },
     {
       "number": "02",
-      "title": "Microsoft Fabric implementation",
-      "text": "Build governed, scalable Fabric platforms with reusable ingestion, medallion architecture, quality controls and CI/CD.",
+      "title": "Data quality & governance",
+      "text": "Create clear ownership, definitions, controls and decision rights so data becomes trustworthy and manageable across teams and domains.",
       "items": [
-        "Fabric & OneLake",
-        "Metadata-driven ETL",
-        "DevOps & monitoring"
+        "Ownership & accountability",
+        "Data quality & definitions",
+        "Security, compliance & governance"
       ]
     },
     {
       "number": "03",
-      "title": "BI & decision support",
-      "text": "Create semantic models and Power BI solutions that give teams one trusted view of performance and decisions.",
+      "title": "Process improvement & decision support",
+      "text": "Improve labour-intensive and fragmented processes by combining business analysis, data and automation, then embed the new way of working with users and management.",
       "items": [
-        "Power BI architecture",
-        "KPI & scorecards",
-        "Self-service BI"
+        "Process analysis & redesign",
+        "AI & automation opportunities",
+        "Management information & adoption"
       ]
     },
     {
       "number": "04",
-      "title": "Data quality & governance",
-      "text": "Make ownership, lineage, security and data quality part of daily operations instead of an afterthought.",
+      "title": "Data platform implementation",
+      "text": "Turn the agreed direction into a scalable, maintainable data platform and reporting landscape, with technology chosen to support the operating model rather than drive it.",
       "items": [
-        "Data quality controls",
-        "Security & RLS",
-        "Standards & ownership"
+        "Microsoft Fabric & Azure",
+        "Reusable data pipelines",
+        "Power BI & semantic models"
       ]
     }
   ],
   "proof": {
     "eyebrow": "Selected experience",
-    "title": "Built in real organisations, not just on slides.",
-    "text": "Experience spans healthcare, public services, childcare, manufacturing, logistics and construction — from greenfield platforms to complex migrations."
+    "title": "Consulting impact backed by delivery.",
+    "text": "The work ranges from aligning multiple organisations on one direction to redesigning processes, improving governance and delivering the data platforms that make those changes operational."
   },
   "client_logos": [
     {
@@ -133,55 +133,55 @@
   ],
   "approach": {
     "eyebrow": "How I work",
-    "title": "Clear direction. Short feedback loops. Transfer to your team.",
+    "title": "Understand the organisation first. Then improve the solution.",
     "steps": [
       {
         "title": "Understand",
-        "text": "Align on the business question, users, risks and current platform."
+        "text": "Map the business question, current process, stakeholders, pain points and constraints before choosing a solution."
       },
       {
-        "title": "Design",
-        "text": "Choose the smallest architecture that can scale with your organisation."
+        "title": "Align",
+        "text": "Turn different interests and requirements into one shared direction, clear priorities and workable design principles."
       },
       {
-        "title": "Deliver",
-        "text": "Build iteratively with visible results, quality checks and deployment discipline."
+        "title": "Improve",
+        "text": "Redesign the process and supporting data solution in short iterations, with visible outcomes and measurable progress."
       },
       {
         "title": "Embed",
-        "text": "Document, train and transfer ownership so the solution remains maintainable."
+        "text": "Transfer knowledge, document ownership and support adoption so the new way of working lasts after the project."
       }
     ]
   },
   "about": {
-    "eyebrow": "Consultant",
+    "eyebrow": "Consultant & Business Analyst",
     "title": "Jonan Harrewijn",
-    "lead": "Data engineering and BI specialist focused on Microsoft Fabric, Azure and Power BI.",
-    "text": "I work at the intersection of architecture, engineering and stakeholder needs. My background in Operations Management & Logistics helps me translate operational questions into practical data solutions, while my technical work focuses on robust pipelines, dimensional models, governance and reporting.",
+    "lead": "Senior Data Architect and Business Analyst focused on improving decisions, processes and the way organisations work with data.",
+    "text": "My work typically starts with people, processes and requirements rather than technology. I facilitate stakeholder alignment, structure complex questions and translate them into practical operating models, governance, data products and implementation plans. Because I can also lead the technical delivery, the advice stays grounded in what can actually be built, adopted and maintained.",
     "image": "Persoonlijk.jpg",
     "image_alt": "Jonan Harrewijn",
     "highlights": [
-      "Microsoft Fabric & Azure",
-      "Power BI & semantic models",
-      "Data engineering & architecture",
-      "Governance & delivery"
+      "Stakeholder & requirements alignment",
+      "Process improvement & automation",
+      "Data strategy & governance",
+      "Change, adoption & knowledge transfer"
     ]
   },
   "expertise": [
+    "Business analysis",
+    "Process redesign",
+    "Stakeholder management",
+    "Data strategy",
+    "Data governance",
+    "Product ownership",
+    "Change & adoption",
     "Microsoft Fabric",
-    "Azure",
-    "Power BI",
-    "Python",
-    "PySpark",
-    "SQL",
-    "Delta Lake",
-    "CI/CD",
-    "Data governance"
+    "Power BI"
   ],
   "cta": {
     "eyebrow": "Have a data challenge?",
-    "title": "Let’s turn it into a concrete next step.",
-    "text": "Whether you are starting with Microsoft Fabric, modernising an existing platform or improving BI reliability, I’m happy to discuss the situation and what a sensible approach looks like.",
+    "title": "Let’s improve the way your organisation works with data.",
+    "text": "Whether the challenge is inefficient processes, unclear ownership, fragmented reporting or a platform that no longer fits the organisation, I can help structure the problem, align the people involved and turn it into a workable next step.",
     "button": "Start a conversation"
   },
   "contact": {
