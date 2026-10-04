@@ -1,0 +1,230 @@
+{
+  "brand": {
+    "name": "Harrewijn Data",
+    "tagline": "Data consulting for better decisions, better processes and sustainable change."
+  },
+  "hero": {
+    "eyebrow": "Data Strategy · Process Improvement · Data Platforms",
+    "title": "Better decisions start with better data and better processes.",
+    "intro": "Harrewijn Data helps organisations improve the way they work with data — from strategy, governance and stakeholder alignment to process redesign and implementation. The goal is not technology for its own sake, but clearer decisions, more efficient processes and solutions that teams can actually sustain.",
+    "primary_cta": "Discuss your data challenge",
+    "secondary_cta": "View selected work",
+    "image": "profile.jpg",
+    "image_alt": "Jonan Harrewijn, data consultant",
+    "focus_label": "Focus",
+    "focus": "Strategy, governance, process improvement & delivery"
+  },
+  "services_intro": {
+    "eyebrow": "Services",
+    "title": "From organisational challenge to working solution.",
+    "text": "I combine consulting, business analysis and hands-on delivery. That means understanding how people work today, aligning stakeholders on what needs to change, and translating that into practical improvements that can be implemented and maintained."
+  },
+  "services": [
+    {
+      "number": "01",
+      "title": "Data strategy & architecture",
+      "text": "Translate business goals into a clear data direction, target operating model and pragmatic roadmap that stakeholders can understand and support.",
+      "items": [
+        "Stakeholder & requirements alignment",
+        "Target architecture & roadmap",
+        "Decision-making principles"
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Data quality & governance",
+      "text": "Create clear ownership, definitions, controls and decision rights so data becomes trustworthy and manageable across teams and domains.",
+      "items": [
+        "Ownership & accountability",
+        "Data quality & definitions",
+        "Security, compliance & governance"
+      ]
+    },
+    {
+      "number": "03",
+      "title": "Process improvement & decision support",
+      "text": "Improve labour-intensive and fragmented processes by combining business analysis, data and automation, then embed the new way of working with users and management.",
+      "items": [
+        "Process analysis & redesign",
+        "AI & automation opportunities",
+        "Management information & adoption"
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Data platform implementation",
+      "text": "Turn the agreed direction into a scalable, maintainable data platform and reporting landscape, with technology chosen to support the operating model rather than drive it.",
+      "items": [
+        "Microsoft Fabric & Azure",
+        "Reusable data pipelines",
+        "Power BI & semantic models"
+      ]
+    }
+  ],
+  "proof": {
+    "eyebrow": "Selected experience",
+    "title": "Consulting impact backed by delivery.",
+    "text": "The work ranges from aligning multiple organisations on one direction to redesigning processes, improving governance and delivering the data platforms that make those changes operational."
+  },
+  "client_logos": [
+    {
+      "name": "MBS Groep",
+      "logo": "mbs.png"
+    },
+    {
+      "name": "SSC Ons",
+      "logo": "ssc_ons.png"
+    },
+    {
+      "name": "Huisartsenposten Oost-Brabant",
+      "logo": "huisartsenposten.png"
+    },
+    {
+      "name": "Partou",
+      "logo": "partou.png"
+    },
+    {
+      "name": "Oxbo",
+      "logo": "oxbo.png"
+    },
+    {
+      "name": "OTTO",
+      "logo": "otto.png"
+    }
+  ],
+  "featured_cases": [
+    {
+      "sector": "Healthcare",
+      "company": "Huisartsenposten Oost-Brabant",
+      "title": "A governed Fabric platform for reliable operational insight",
+      "text": "Designed and implemented a Microsoft Fabric data platform with dimensional modelling, row-level security, automated data quality checks, scorecard reporting and end-user enablement.",
+      "logo": "huisartsenposten.png",
+      "tags": [
+        "Microsoft Fabric",
+        "Power BI",
+        "Data quality"
+      ],
+      "result": "Four reporting domains — Care, HR, Finance and Quality — brought onto one governed platform, including management reporting based on the Balanced Scorecard."
+    },
+    {
+      "sector": "Public services",
+      "company": "Shared Service Centrum Ons",
+      "title": "One data foundation across seven government partners",
+      "text": "Led the redesign of a centralised Fabric data warehouse, aligning platform choices with public-sector standards, governance requirements and a roadmap toward Purview.",
+      "logo": "ssc_ons.png",
+      "tags": [
+        "Architecture",
+        "Governance",
+        "Fabric"
+      ],
+      "result": "Requirements from multiple autonomous public-sector partners were harmonised into one functional design and one technical direction."
+    },
+    {
+      "sector": "Industry",
+      "company": "MBS Groep",
+      "title": "From source systems to governed reporting in Fabric",
+      "text": "Delivered an end-to-end data warehouse and Power BI implementation with metadata-driven pipelines, medallion architecture, governance and operational monitoring.",
+      "logo": "mbs.png",
+      "tags": [
+        "Data engineering",
+        "Medallion",
+        "Power BI"
+      ],
+      "result": "Multiple business domains and reports were consolidated onto one central reusable data model with live data-quality monitoring."
+    }
+  ],
+  "approach": {
+    "eyebrow": "How I work",
+    "title": "Understand the organisation first. Then improve the solution.",
+    "steps": [
+      {
+        "title": "Understand",
+        "text": "Map the business question, current process, stakeholders, pain points and constraints before choosing a solution."
+      },
+      {
+        "title": "Align",
+        "text": "Turn different interests and requirements into one shared direction, clear priorities and workable design principles."
+      },
+      {
+        "title": "Improve",
+        "text": "Redesign the process and supporting data solution in short iterations, with visible outcomes and measurable progress."
+      },
+      {
+        "title": "Embed",
+        "text": "Transfer knowledge, document ownership and support adoption so the new way of working lasts after the project."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Consultant & Business Analyst",
+    "title": "Jonan Harrewijn",
+    "lead": "Senior Data Architect and Business Analyst focused on improving decisions, processes and the way organisations work with data.",
+    "text": "My work typically starts with people, processes and requirements rather than technology. I facilitate stakeholder alignment, structure complex questions and translate them into practical operating models, governance, data products and implementation plans. Because I can also lead the technical delivery, the advice stays grounded in what can actually be built, adopted and maintained.",
+    "image": "Persoonlijk.jpg",
+    "image_alt": "Jonan Harrewijn",
+    "highlights": [
+      "Stakeholder & requirements alignment",
+      "Process improvement & automation",
+      "Data strategy & governance",
+      "Change, adoption & knowledge transfer"
+    ]
+  },
+  "expertise": [
+    "Business analysis",
+    "Process redesign",
+    "Stakeholder management",
+    "Data strategy",
+    "Data governance",
+    "Product ownership",
+    "Change & adoption",
+    "Microsoft Fabric",
+    "Power BI"
+  ],
+  "cta": {
+    "eyebrow": "Have a data challenge?",
+    "title": "Let’s improve the way your organisation works with data.",
+    "text": "Whether the challenge is inefficient processes, unclear ownership, fragmented reporting or a platform that no longer fits the organisation, I can help structure the problem, align the people involved and turn it into a workable next step.",
+    "button": "Start a conversation"
+  },
+  "contact": {
+    "email": "jonanharrewijn@hotmail.com",
+    "phone_display": "+31 6 41270903",
+    "phone_link": "+31641270903",
+    "linkedin": ""
+  },
+  "proof_metrics": [
+    {
+      "value": "90%",
+      "label": "shorter process duration",
+      "text": "At Vecozo, an AI solution reduced the duration of a labour-intensive process by 90%."
+    },
+    {
+      "value": "8",
+      "label": "public-sector partners aligned",
+      "text": "Requirements from seven municipalities and the Province of Overijssel were harmonised into one shared functional design and technical direction."
+    },
+    {
+      "value": "10+",
+      "label": "source systems brought together",
+      "text": "Integrated more than ten source systems into one governed data environment to support consistent management information."
+    },
+    {
+      "value": "4 TB",
+      "label": "production data platform scale",
+      "text": "Designed and built a Microsoft Fabric platform processing approximately 4 TB of healthcare data."
+    }
+  ],
+  "meta_title": "Harrewijn Data | Data consulting & process improvement",
+  "labels": {
+    "nav_services": "Services",
+    "nav_work": "Work",
+    "nav_approach": "Approach",
+    "nav_about": "About",
+    "nav_fabric": "Fabric framework",
+    "contact": "Contact",
+    "experience_with": "Experience with organisations including",
+    "result": "Result",
+    "more_experience": "More client experience available on request.",
+    "discuss_similar": "Discuss a similar challenge"
+  }
+}

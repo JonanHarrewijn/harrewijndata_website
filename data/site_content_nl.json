@@ -1,0 +1,230 @@
+{
+  "meta_title": "Harrewijn Data | Dataconsultancy & procesverbetering",
+  "brand": {
+    "name": "Harrewijn Data",
+    "tagline": "Dataconsultancy voor betere besluiten, betere processen en duurzame verandering."
+  },
+  "hero": {
+    "eyebrow": "Datastrategie · Procesverbetering · Dataplatformen",
+    "title": "Betere besluiten beginnen met betere data en betere processen.",
+    "intro": "Harrewijn Data helpt organisaties om slimmer met data te werken — van strategie, governance en stakeholderafstemming tot procesverbetering en implementatie. Niet techniek om de techniek, maar duidelijkere besluiten, efficiëntere processen en oplossingen die de organisatie duurzaam zelf kan beheren.",
+    "primary_cta": "Bespreek uw datavraagstuk",
+    "secondary_cta": "Bekijk geselecteerde opdrachten",
+    "image": "profile.jpg",
+    "image_alt": "Jonan Harrewijn, dataconsultant",
+    "focus_label": "Focus",
+    "focus": "Strategie, governance, procesverbetering & realisatie"
+  },
+  "services_intro": {
+    "eyebrow": "Diensten",
+    "title": "Van organisatievraagstuk naar werkende oplossing.",
+    "text": "Ik combineer consultancy, businessanalyse en realisatie. Dat betekent eerst begrijpen hoe mensen en processen nu werken, stakeholders verbinden rond wat er moet veranderen en dat vertalen naar praktische verbeteringen die uitvoerbaar én beheerbaar zijn."
+  },
+  "services": [
+    {
+      "number": "01",
+      "title": "Datastrategie & architectuur",
+      "text": "Vertaal organisatiedoelen naar een heldere datakoers, doelarchitectuur, werkwijze en pragmatische roadmap die stakeholders begrijpen en ondersteunen.",
+      "items": [
+        "Stakeholder- & requirementsafstemming",
+        "Doelarchitectuur & roadmap",
+        "Principes voor besluitvorming"
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Datakwaliteit & governance",
+      "text": "Creëer duidelijk eigenaarschap, eenduidige definities, beheersmaatregelen en besluitrechten zodat data betrouwbaar en bestuurbaar wordt over teams en domeinen heen.",
+      "items": [
+        "Eigenaarschap & verantwoordelijkheid",
+        "Datakwaliteit & definities",
+        "Security, compliance & governance"
+      ]
+    },
+    {
+      "number": "03",
+      "title": "Procesverbetering & beslisondersteuning",
+      "text": "Verbeter arbeidsintensieve en versnipperde processen met businessanalyse, data en automatisering, en borg de nieuwe werkwijze bij gebruikers en management.",
+      "items": [
+        "Procesanalyse & herontwerp",
+        "AI- & automatiseringskansen",
+        "Managementinformatie & adoptie"
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Implementatie van dataplatformen",
+      "text": "Vertaal de gekozen richting naar een schaalbaar en beheerbaar dataplatform en rapportagelandschap, waarbij technologie de werkwijze ondersteunt in plaats van bepaalt.",
+      "items": [
+        "Microsoft Fabric & Azure",
+        "Herbruikbare datapipelines",
+        "Power BI & semantische modellen"
+      ]
+    }
+  ],
+  "proof": {
+    "eyebrow": "Geselecteerde ervaring",
+    "title": "Consultingimpact onderbouwd met realisatie.",
+    "text": "Mijn werk varieert van het verbinden van meerdere organisaties rond één koers tot procesverbetering, governance en het realiseren van dataplatformen die die veranderingen daadwerkelijk werkend maken."
+  },
+  "client_logos": [
+    {
+      "name": "MBS Groep",
+      "logo": "mbs.png"
+    },
+    {
+      "name": "SSC Ons",
+      "logo": "ssc_ons.png"
+    },
+    {
+      "name": "Huisartsenposten Oost-Brabant",
+      "logo": "huisartsenposten.png"
+    },
+    {
+      "name": "Partou",
+      "logo": "partou.png"
+    },
+    {
+      "name": "Oxbo",
+      "logo": "oxbo.png"
+    },
+    {
+      "name": "OTTO",
+      "logo": "otto.png"
+    }
+  ],
+  "featured_cases": [
+    {
+      "sector": "Zorg",
+      "company": "Huisartsenposten Oost-Brabant",
+      "title": "Een beheerst Fabric-platform voor betrouwbare stuurinformatie",
+      "text": "Een Microsoft Fabric-dataplatform ontworpen en geïmplementeerd met dimensionele modellering, row-level security, geautomatiseerde datakwaliteitscontroles, scorecardrapportages en gebruikersadoptie.",
+      "logo": "huisartsenposten.png",
+      "tags": [
+        "Microsoft Fabric",
+        "Power BI",
+        "Datakwaliteit"
+      ],
+      "result": "Vier rapportagedomeinen — Zorg, HR, Financiën en Kwaliteit — samengebracht op één beheerst platform, inclusief managementrapportage op basis van de Balanced Scorecard."
+    },
+    {
+      "sector": "Publieke sector",
+      "company": "Shared Service Centrum Ons",
+      "title": "Eén datakoers voor zeven gemeenten en een provincie",
+      "text": "Het redesign van een centraal dataplatform geleid en platformkeuzes verbonden aan publieke standaarden, governance-eisen en een toekomstgerichte architectuur.",
+      "logo": "ssc_ons.png",
+      "tags": [
+        "Architectuur",
+        "Governance",
+        "Stakeholdermanagement"
+      ],
+      "result": "Requirements van autonome publieke organisaties geharmoniseerd tot één gedragen functioneel ontwerp en één technische richting."
+    },
+    {
+      "sector": "Industrie",
+      "company": "MBS Groep",
+      "title": "Van bronsystemen naar beheerst sturen op data",
+      "text": "Een end-to-end datawarehouse- en Power BI-oplossing gerealiseerd met herbruikbare datastromen, governance en operationele monitoring.",
+      "logo": "mbs.png",
+      "tags": [
+        "Procesverbetering",
+        "Dataplatform",
+        "Power BI"
+      ],
+      "result": "Meerdere bedrijfsdomeinen en rapportages geconsolideerd op één centraal herbruikbaar datamodel met live monitoring van datakwaliteit."
+    }
+  ],
+  "approach": {
+    "eyebrow": "Mijn werkwijze",
+    "title": "Eerst de organisatie begrijpen. Daarna de oplossing verbeteren.",
+    "steps": [
+      {
+        "title": "Begrijpen",
+        "text": "Breng de businessvraag, het huidige proces, stakeholders, knelpunten en randvoorwaarden in kaart voordat een oplossing wordt gekozen."
+      },
+      {
+        "title": "Verbinden",
+        "text": "Vertaal verschillende belangen en requirements naar één gedeelde richting, duidelijke prioriteiten en werkbare ontwerpprincipes."
+      },
+      {
+        "title": "Verbeteren",
+        "text": "Herontwerp proces en data-oplossing in korte iteraties, met zichtbare resultaten en meetbare voortgang."
+      },
+      {
+        "title": "Borgen",
+        "text": "Draag kennis over, leg eigenaarschap vast en ondersteun adoptie zodat de nieuwe werkwijze ook na het project blijft werken."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Consultant & Business Analist",
+    "title": "Jonan Harrewijn",
+    "lead": "Senior Data Architect en Business Analist, gericht op betere besluitvorming, processen en de manier waarop organisaties met data werken.",
+    "text": "Mijn werk begint meestal bij mensen, processen en requirements — niet bij technologie. Ik breng stakeholders bij elkaar, structureer complexe vraagstukken en vertaal die naar werkbare governance, dataproducten, operating models en implementatieplannen. Omdat ik ook de technische realisatie kan leiden, blijft het advies praktisch: uitvoerbaar, adopteerbaar en duurzaam beheerbaar.",
+    "image": "Persoonlijk.jpg",
+    "image_alt": "Jonan Harrewijn",
+    "highlights": [
+      "Stakeholder- & requirementsafstemming",
+      "Procesverbetering & automatisering",
+      "Datastrategie & governance",
+      "Verandering, adoptie & kennisoverdracht"
+    ]
+  },
+  "expertise": [
+    "Businessanalyse",
+    "Procesherontwerp",
+    "Stakeholdermanagement",
+    "Datastrategie",
+    "Data governance",
+    "Product ownership",
+    "Verandering & adoptie",
+    "Microsoft Fabric",
+    "Power BI"
+  ],
+  "cta": {
+    "eyebrow": "Een datavraagstuk?",
+    "title": "Laten we verbeteren hoe uw organisatie met data werkt.",
+    "text": "Of het nu gaat om inefficiënte processen, onduidelijk eigenaarschap, versnipperde rapportages of een platform dat niet meer bij de organisatie past: ik help het vraagstuk te structureren, betrokkenen te verbinden en dit te vertalen naar een concrete volgende stap.",
+    "button": "Start een gesprek"
+  },
+  "contact": {
+    "email": "jonanharrewijn@hotmail.com",
+    "phone_display": "+31 6 41270903",
+    "phone_link": "+31641270903",
+    "linkedin": ""
+  },
+  "proof_metrics": [
+    {
+      "value": "90%",
+      "label": "kortere procesduur",
+      "text": "Bij Vecozo verkortte een AI-oplossing de doorlooptijd van een arbeidsintensief proces met 90%."
+    },
+    {
+      "value": "8",
+      "label": "publieke partners verbonden",
+      "text": "Requirements van zeven gemeenten en de Provincie Overijssel zijn geharmoniseerd tot één gedeeld functioneel ontwerp en één technische richting."
+    },
+    {
+      "value": "10+",
+      "label": "bronsystemen samengebracht",
+      "text": "Meer dan tien bronsystemen samengebracht in één beheerde dataomgeving voor consistente managementinformatie."
+    },
+    {
+      "value": "4 TB",
+      "label": "schaal van productieplatform",
+      "text": "Een Microsoft Fabric-platform ontworpen en gebouwd dat circa 4 TB aan zorgdata verwerkt."
+    }
+  ],
+  "labels": {
+    "nav_services": "Diensten",
+    "nav_work": "Opdrachten",
+    "nav_approach": "Werkwijze",
+    "nav_about": "Over mij",
+    "nav_fabric": "Fabric-framework",
+    "contact": "Contact",
+    "experience_with": "Ervaring bij organisaties waaronder",
+    "result": "Resultaat",
+    "more_experience": "Meer opdrachtgevervaring beschikbaar op verzoek.",
+    "discuss_similar": "Bespreek een vergelijkbaar vraagstuk"
+  }
+}

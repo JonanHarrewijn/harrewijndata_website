@@ -2,52 +2,61 @@ from jinja2 import Environment, FileSystemLoader
 import json
 import os
 from datetime import datetime
+import shutil
 
 print("Running build.py...")
 
-# Set up Jinja2 environment
 env = Environment(loader=FileSystemLoader("templates"))
 
-# Load data
 with open("data/projects.json", encoding="utf-8") as f:
     projects = json.load(f)
 
 with open("data/certifications.json", encoding="utf-8") as f:
     certifications = json.load(f)
 
-# Render the index template
-template = env.get_template("index.html")
-rendered_html = template.render(
-    projects=projects,
-    certifications=certifications,
-    current_year=datetime.now().year
-)
+with open("data/site_content.json", encoding="utf-8") as f:
+    site_en = json.load(f)
 
-# Write to output file
+with open("data/site_content_nl.json", encoding="utf-8") as f:
+    site_nl = json.load(f)
+
 os.makedirs("docs", exist_ok=True)
+
+template = env.get_template("index.html")
 with open("docs/index.html", "w", encoding="utf-8") as f:
-    f.write(rendered_html)
+    f.write(template.render(
+        projects=projects,
+        certifications=certifications,
+        site=site_en,
+        page_lang="en",
+        current_year=datetime.now().year
+    ))
+print("✅ English site built at /docs/index.html")
 
-print("✅ Site built at /docs/index.html")
+with open("docs/nl.html", "w", encoding="utf-8") as f:
+    f.write(template.render(
+        projects=projects,
+        certifications=certifications,
+        site=site_nl,
+        page_lang="nl",
+        current_year=datetime.now().year
+    ))
+print("✅ Dutch site built at /docs/nl.html")
 
-# Render the fabric page
 fabric_template = env.get_template("fabric.html")
-fabric_html = fabric_template.render(current_year=datetime.now().year)
 with open("docs/fabric.html", "w", encoding="utf-8") as f:
-    f.write(fabric_html)
+    f.write(fabric_template.render(
+        projects=projects,
+        certifications=certifications,
+        site=site_en,
+        page_lang="en",
+        current_year=datetime.now().year
+    ))
 print("✅ Fabric page built at /docs/fabric.html")
 
-import shutil
-
-# Copy static files (e.g. images, css) into output/
 static_src = "static"
 static_dest = os.path.join("docs", "static")
-
-# Remove existing static folder if it exists
 if os.path.exists(static_dest):
     shutil.rmtree(static_dest)
-
-# Copy again
 shutil.copytree(static_src, static_dest)
 print("✅ Copied static files to /docs")
-
