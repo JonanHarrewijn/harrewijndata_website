@@ -1,0 +1,43 @@
+name: Build preview site
+
+on:
+  push:
+    branches:
+      - redesign/consulting-website
+    paths-ignore:
+      - 'docs/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: redesign/consulting-website
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install build dependency
+        run: pip install jinja2
+
+      - name: Build site
+        run: python build.py
+
+      - name: Commit generated preview
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Build preview site"
+            git push
+          fi
