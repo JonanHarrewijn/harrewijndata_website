@@ -58,7 +58,7 @@ a{color:inherit;text-decoration:none}
 .hero-copy h1,.section-heading h2,.about-copy h2,.cta-grid h2,.narrow-heading h2{
   margin:0;font-weight:700;letter-spacing:-.035em;line-height:1.02
 }
-.hero-copy h1{font-size:clamp(3.4rem,7vw,6.7rem);max-width:850px}
+.hero-copy h1{font-size:clamp(3rem,5.8vw,5.7rem);max-width:850px}
 .hero-intro{font-size:1.18rem;color:var(--muted);max-width:710px;margin:30px 0 0}
 .button-row{display:flex;align-items:center;gap:28px;margin-top:34px}
 .text-link{font-weight:700;display:inline-flex;gap:8px;align-items:center}
@@ -84,7 +84,7 @@ a{color:inherit;text-decoration:none}
 .section-accent{background:var(--accent);color:var(--white)}
 .section-heading{margin-bottom:54px}
 .split-heading{display:grid;grid-template-columns:1.15fr .85fr;gap:70px;align-items:end}
-.section-heading h2,.about-copy h2,.cta-grid h2,.narrow-heading h2{font-size:clamp(2.5rem,5vw,4.6rem)}
+.section-heading h2,.about-copy h2,.cta-grid h2,.narrow-heading h2{font-size:clamp(2.2rem,4vw,3.9rem)}
 .section-heading>p,.split-heading>p{font-size:1.08rem;color:var(--muted);max-width:540px;margin:0}
 .inverse>p{color:#c6cfcc}
 .inverse .eyebrow{color:#ff9a73}
@@ -135,7 +135,7 @@ a{color:inherit;text-decoration:none}
   .nav-links{display:none}
   .hero-grid,.split-heading,.about-grid,.cta-grid{grid-template-columns:1fr}
   .hero-grid{gap:46px}
-  .hero-copy h1{font-size:clamp(3rem,11vw,5.8rem)}
+  .hero-copy h1{font-size:clamp(2.7rem,9.5vw,4.8rem)}
   .hero-visual{max-width:620px}
   .logo-grid{grid-template-columns:repeat(3,1fr)}
   .case-grid{grid-template-columns:1fr}
