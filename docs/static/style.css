@@ -89,9 +89,9 @@ a{color:inherit;text-decoration:none}
 .inverse>p{color:#c6cfcc}
 .inverse .eyebrow{color:#ff9a73}
 .service-grid{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
-.service-card{padding:34px 34px 36px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:330px}
+.service-card{padding:34px 34px 36px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:260px}
 .service-number{font-size:.75rem;letter-spacing:.14em;color:var(--accent);font-weight:800}
-.service-card h3{font-size:1.6rem;line-height:1.15;margin:44px 0 12px}
+.service-card h3{font-size:1.6rem;line-height:1.15;margin:36px 0 12px}
 .service-card p{color:var(--muted);max-width:560px}
 .service-card ul{list-style:none;padding:0;margin:22px 0 0}
 .service-card li{padding:8px 0;border-top:1px solid var(--line);font-size:.92rem}
@@ -244,4 +244,13 @@ a{color:inherit;text-decoration:none}
 }
 @media (max-width:640px){
   .language-switch{margin-left:auto}
+}
+
+.about-expertise{
+  margin-top:28px;
+  padding-top:20px;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:.94rem;
+  line-height:1.65;
 }
