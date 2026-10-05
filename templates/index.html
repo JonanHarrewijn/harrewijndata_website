@@ -79,11 +79,7 @@
           <span class="service-number">{{ service.number }}</span>
           <h3>{{ service.title }}</h3>
           <p>{{ service.text }}</p>
-          <ul>
-            {% for item in service["items"] %}
-            <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
+
         </article>
         {% endfor %}
       </div>
@@ -127,9 +123,11 @@
             <strong>{{ case.result }}</strong>
           </div>
           {% endif %}
+          {% if case.tags %}
           <div class="tag-row">
             {% for tag in case.tags %}<span>{{ tag }}</span>{% endfor %}
           </div>
+          {% endif %}
         </article>
         {% endfor %}
       </div>
@@ -169,16 +167,22 @@
         <h2>{{ site.about.title }}</h2>
         <p class="about-lead">{{ site.about.lead }}</p>
         <p>{{ site.about.text }}</p>
+        {% if site.about.highlights %}
         <div class="highlight-grid">
           {% for item in site.about.highlights %}
           <span>{{ item }}</span>
           {% endfor %}
         </div>
+        {% endif %}
+        {% if site.about.expertise_text %}
+        <p class="about-expertise">{{ site.about.expertise_text }}</p>
+        {% elif site.expertise %}
         <div class="expertise-row">
           {% for item in site.expertise %}
           <span>{{ item }}</span>
           {% endfor %}
         </div>
+        {% endif %}
       </div>
     </div>
   </section>
