@@ -16,55 +16,35 @@
   },
   "services_intro": {
     "eyebrow": "Services",
-    "title": "From organisational challenge to working solution.",
+    "title": "From organisational challenge to a solution that works.",
     "text": ""
   },
   "services": [
     {
       "number": "01",
       "title": "Data strategy & architecture",
-      "text": "Translate business goals into a clear data direction, target operating model and pragmatic roadmap that stakeholders can understand and support.",
-      "items": [
-        "Stakeholder & requirements alignment",
-        "Target architecture & roadmap",
-        "Decision-making principles"
-      ]
+      "text": "I help organisations decide where they want to go with data and what is needed to get there. Together we turn priorities, ownership and architecture into a clear and realistic direction."
     },
     {
       "number": "02",
       "title": "Data quality & governance",
-      "text": "Create clear ownership, definitions, controls and decision rights so data becomes trustworthy and manageable across teams and domains.",
-      "items": [
-        "Ownership & accountability",
-        "Data quality & definitions",
-        "Security, compliance & governance"
-      ]
+      "text": "Reliable data starts with clear agreements. I help define ownership, standards and controls so people know which data they can trust and who is responsible for what."
     },
     {
       "number": "03",
       "title": "Process improvement & decision support",
-      "text": "Improve labour-intensive and fragmented processes by combining business analysis, data and automation, then embed the new way of working with users and management.",
-      "items": [
-        "Process analysis & redesign",
-        "AI & automation opportunities",
-        "Management information & adoption"
-      ]
+      "text": "Many processes still rely on manual work, disconnected files or repeated checks. I map the process and identify where data, automation or AI can make the work simpler, faster and more reliable."
     },
     {
       "number": "04",
-      "title": "Data platform implementation",
-      "text": "Turn the agreed direction into a scalable, maintainable data platform and reporting landscape, with technology chosen to support the operating model rather than drive it.",
-      "items": [
-        "Microsoft Fabric & Azure",
-        "Reusable data pipelines",
-        "Power BI & semantic models"
-      ]
+      "title": "Data platforms",
+      "text": "When a new or improved data platform is needed, I can also lead the implementation. The technology supports the way the organisation wants to work, rather than becoming the goal in itself."
     }
   ],
   "proof": {
     "eyebrow": "Selected experience",
-    "title": "Consulting impact backed by delivery.",
-    "text": "The work ranges from aligning multiple organisations on one direction to redesigning processes, improving governance and delivering the data platforms that make those changes operational."
+    "title": "Advice that also works in practice.",
+    "text": "I help organisations choose a direction and make it work — from stakeholder alignment and process improvement to governance and implementation."
   },
   "client_logos": [
     {
@@ -99,11 +79,7 @@
       "title": "A governed Fabric platform for reliable operational insight",
       "text": "Designed and implemented a Microsoft Fabric data platform with dimensional modelling, row-level security, automated data quality checks, scorecard reporting and end-user enablement.",
       "logo": "huisartsenposten.png",
-      "tags": [
-        "Microsoft Fabric",
-        "Power BI",
-        "Data quality"
-      ],
+      "tags": [],
       "result": "Four reporting domains — Care, HR, Finance and Quality — brought onto one governed platform, including management reporting based on the Balanced Scorecard."
     },
     {
@@ -112,11 +88,7 @@
       "title": "One data foundation across seven government partners",
       "text": "Led the redesign of a centralised Fabric data warehouse, aligning platform choices with public-sector standards, governance requirements and a roadmap toward Purview.",
       "logo": "ssc_ons.png",
-      "tags": [
-        "Architecture",
-        "Governance",
-        "Fabric"
-      ],
+      "tags": [],
       "result": "Requirements from multiple autonomous public-sector partners were harmonised into one functional design and one technical direction."
     },
     {
@@ -125,11 +97,7 @@
       "title": "From source systems to governed reporting in Fabric",
       "text": "Delivered an end-to-end data warehouse and Power BI implementation with metadata-driven pipelines, medallion architecture, governance and operational monitoring.",
       "logo": "mbs.png",
-      "tags": [
-        "Data engineering",
-        "Medallion",
-        "Power BI"
-      ],
+      "tags": [],
       "result": "Multiple business domains and reports were consolidated onto one central reusable data model with live data-quality monitoring."
     }
   ],
@@ -158,28 +126,14 @@
   "about": {
     "eyebrow": "Consultant & Business Analyst",
     "title": "Jonan Harrewijn",
-    "lead": "Senior Data Architect and Business Analyst focused on improving decisions, processes and the way organisations work with data.",
-    "text": "My work typically starts with people, processes and requirements rather than technology. I facilitate stakeholder alignment, structure complex questions and translate them into practical operating models, governance, data products and implementation plans. Because I can also lead the technical delivery, the advice stays grounded in what can actually be built, adopted and maintained.",
+    "lead": "Senior Data Architect and Business Analyst focused on better decisions, better processes and practical change.",
+    "text": "My work usually starts with people and processes, not technology. I bring different interests together, make complex questions concrete and help organisations arrive at a practical way forward. Because I also understand the technical delivery, the advice stays realistic and implementable.",
     "image": "Persoonlijk.jpg",
     "image_alt": "Jonan Harrewijn",
-    "highlights": [
-      "Stakeholder & requirements alignment",
-      "Process improvement & automation",
-      "Data strategy & governance",
-      "Change, adoption & knowledge transfer"
-    ]
+    "highlights": [],
+    "expertise_text": "Experience across business analysis, process improvement, stakeholder management, data strategy, governance, Microsoft Fabric and Power BI."
   },
-  "expertise": [
-    "Business analysis",
-    "Process redesign",
-    "Stakeholder management",
-    "Data strategy",
-    "Data governance",
-    "Product ownership",
-    "Change & adoption",
-    "Microsoft Fabric",
-    "Power BI"
-  ],
+  "expertise": [],
   "cta": {
     "eyebrow": "Have a data challenge?",
     "title": "Let’s improve the way your organisation works with data.",
