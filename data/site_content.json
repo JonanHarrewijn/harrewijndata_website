@@ -6,7 +6,7 @@
   "hero": {
     "eyebrow": "Data Strategy · Process Improvement · Data Platforms",
     "title": "Better decisions start with better data and better processes.",
-    "intro": "Harrewijn Data helps organisations improve the way they work with data — from strategy, governance and stakeholder alignment to process redesign and implementation. The goal is not technology for its own sake, but clearer decisions, more efficient processes and solutions that teams can actually sustain.",
+    "intro": "Harrewijn Data helps organisations work smarter with data. Clearer decisions, more efficient processes and solutions the organisation can manage itself.",
     "primary_cta": "Discuss your data challenge",
     "secondary_cta": "View selected work",
     "image": "profile.jpg",
@@ -17,7 +17,7 @@
   "services_intro": {
     "eyebrow": "Services",
     "title": "From organisational challenge to working solution.",
-    "text": "I combine consulting, business analysis and hands-on delivery. That means understanding how people work today, aligning stakeholders on what needs to change, and translating that into practical improvements that can be implemented and maintained."
+    "text": ""
   },
   "services": [
     {
