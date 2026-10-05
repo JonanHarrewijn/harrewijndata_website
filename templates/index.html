@@ -70,7 +70,7 @@
           <p class="eyebrow">{{ site.services_intro.eyebrow }}</p>
           <h2>{{ site.services_intro.title }}</h2>
         </div>
-        <p>{{ site.services_intro.text }}</p>
+        {% if site.services_intro.text %}<p>{{ site.services_intro.text }}</p>{% endif %}
       </div>
 
       <div class="service-grid">
