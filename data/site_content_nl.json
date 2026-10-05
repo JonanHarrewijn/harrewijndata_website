@@ -7,7 +7,7 @@
   "hero": {
     "eyebrow": "Datastrategie · Procesverbetering · Dataplatformen",
     "title": "Betere besluiten beginnen met betere data en betere processen.",
-    "intro": "Harrewijn Data helpt organisaties om slimmer met data te werken — van strategie, governance en stakeholderafstemming tot procesverbetering en implementatie. Niet techniek om de techniek, maar duidelijkere besluiten, efficiëntere processen en oplossingen die de organisatie duurzaam zelf kan beheren.",
+    "intro": "Harrewijn Data helpt om slimmer met data te werken. Duidelijke besluiten, efficiëntere processen en oplossingen die de organisatie zelf kan beheren.",
     "primary_cta": "Bespreek uw datavraagstuk",
     "secondary_cta": "Bekijk geselecteerde opdrachten",
     "image": "profile.jpg",
@@ -17,55 +17,35 @@
   },
   "services_intro": {
     "eyebrow": "Diensten",
-    "title": "Van organisatievraagstuk naar werkende oplossing.",
-    "text": "Ik combineer consultancy, businessanalyse en realisatie. Dat betekent eerst begrijpen hoe mensen en processen nu werken, stakeholders verbinden rond wat er moet veranderen en dat vertalen naar praktische verbeteringen die uitvoerbaar én beheerbaar zijn."
+    "title": "Van organisatievraagstuk naar een oplossing die werkt.",
+    "text": ""
   },
   "services": [
     {
       "number": "01",
       "title": "Datastrategie & architectuur",
-      "text": "Vertaal organisatiedoelen naar een heldere datakoers, doelarchitectuur, werkwijze en pragmatische roadmap die stakeholders begrijpen en ondersteunen.",
-      "items": [
-        "Stakeholder- & requirementsafstemming",
-        "Doelarchitectuur & roadmap",
-        "Principes voor besluitvorming"
-      ]
+      "text": "Ik help organisaties bepalen waar ze met data naartoe willen en wat daarvoor nodig is. Samen brengen we prioriteiten, eigenaarschap en architectuur terug tot een duidelijke en haalbare koers."
     },
     {
       "number": "02",
       "title": "Datakwaliteit & governance",
-      "text": "Creëer duidelijk eigenaarschap, eenduidige definities, beheersmaatregelen en besluitrechten zodat data betrouwbaar en bestuurbaar wordt over teams en domeinen heen.",
-      "items": [
-        "Eigenaarschap & verantwoordelijkheid",
-        "Datakwaliteit & definities",
-        "Security, compliance & governance"
-      ]
+      "text": "Betrouwbare data begint met duidelijke afspraken. Ik help eigenaarschap, definities en controles zo in te richten dat mensen weten welke data ze kunnen vertrouwen en wie waarvoor verantwoordelijk is."
     },
     {
       "number": "03",
       "title": "Procesverbetering & beslisondersteuning",
-      "text": "Verbeter arbeidsintensieve en versnipperde processen met businessanalyse, data en automatisering, en borg de nieuwe werkwijze bij gebruikers en management.",
-      "items": [
-        "Procesanalyse & herontwerp",
-        "AI- & automatiseringskansen",
-        "Managementinformatie & adoptie"
-      ]
+      "text": "Veel processen kosten onnodig veel handwerk of bestaan uit losse bestanden en controles. Ik breng het proces in kaart en kijk waar data, automatisering of AI het werk eenvoudiger, sneller en betrouwbaarder kan maken."
     },
     {
       "number": "04",
-      "title": "Implementatie van dataplatformen",
-      "text": "Vertaal de gekozen richting naar een schaalbaar en beheerbaar dataplatform en rapportagelandschap, waarbij technologie de werkwijze ondersteunt in plaats van bepaalt.",
-      "items": [
-        "Microsoft Fabric & Azure",
-        "Herbruikbare datapipelines",
-        "Power BI & semantische modellen"
-      ]
+      "title": "Dataplatformen",
+      "text": "Als er een nieuw of beter dataplatform nodig is, kan ik de gekozen aanpak ook daadwerkelijk realiseren. Daarbij staat niet de techniek centraal, maar een oplossing die betrouwbaar werkt en door de organisatie zelf beheerd kan worden."
     }
   ],
   "proof": {
     "eyebrow": "Geselecteerde ervaring",
-    "title": "Consultingimpact onderbouwd met realisatie.",
-    "text": "Mijn werk varieert van het verbinden van meerdere organisaties rond één koers tot procesverbetering, governance en het realiseren van dataplatformen die die veranderingen daadwerkelijk werkend maken."
+    "title": "Advies dat ook in de praktijk werkt.",
+    "text": "Ik help organisaties niet alleen een richting te kiezen, maar die ook werkend te krijgen — van stakeholderafstemming en procesverbetering tot governance en implementatie."
   },
   "client_logos": [
     {
@@ -100,11 +80,7 @@
       "title": "Een beheerst Fabric-platform voor betrouwbare stuurinformatie",
       "text": "Een Microsoft Fabric-dataplatform ontworpen en geïmplementeerd met dimensionele modellering, row-level security, geautomatiseerde datakwaliteitscontroles, scorecardrapportages en gebruikersadoptie.",
       "logo": "huisartsenposten.png",
-      "tags": [
-        "Microsoft Fabric",
-        "Power BI",
-        "Datakwaliteit"
-      ],
+      "tags": [],
       "result": "Vier rapportagedomeinen — Zorg, HR, Financiën en Kwaliteit — samengebracht op één beheerst platform, inclusief managementrapportage op basis van de Balanced Scorecard."
     },
     {
@@ -113,11 +89,7 @@
       "title": "Eén datakoers voor zeven gemeenten en een provincie",
       "text": "Het redesign van een centraal dataplatform geleid en platformkeuzes verbonden aan publieke standaarden, governance-eisen en een toekomstgerichte architectuur.",
       "logo": "ssc_ons.png",
-      "tags": [
-        "Architectuur",
-        "Governance",
-        "Stakeholdermanagement"
-      ],
+      "tags": [],
       "result": "Requirements van autonome publieke organisaties geharmoniseerd tot één gedragen functioneel ontwerp en één technische richting."
     },
     {
@@ -126,11 +98,7 @@
       "title": "Van bronsystemen naar beheerst sturen op data",
       "text": "Een end-to-end datawarehouse- en Power BI-oplossing gerealiseerd met herbruikbare datastromen, governance en operationele monitoring.",
       "logo": "mbs.png",
-      "tags": [
-        "Procesverbetering",
-        "Dataplatform",
-        "Power BI"
-      ],
+      "tags": [],
       "result": "Meerdere bedrijfsdomeinen en rapportages geconsolideerd op één centraal herbruikbaar datamodel met live monitoring van datakwaliteit."
     }
   ],
@@ -159,28 +127,14 @@
   "about": {
     "eyebrow": "Consultant & Business Analist",
     "title": "Jonan Harrewijn",
-    "lead": "Senior Data Architect en Business Analist, gericht op betere besluitvorming, processen en de manier waarop organisaties met data werken.",
-    "text": "Mijn werk begint meestal bij mensen, processen en requirements — niet bij technologie. Ik breng stakeholders bij elkaar, structureer complexe vraagstukken en vertaal die naar werkbare governance, dataproducten, operating models en implementatieplannen. Omdat ik ook de technische realisatie kan leiden, blijft het advies praktisch: uitvoerbaar, adopteerbaar en duurzaam beheerbaar.",
+    "lead": "Senior Data Architect en Business Analist, gericht op betere besluitvorming, processen en praktische verandering.",
+    "text": "Mijn werk begint meestal bij mensen en processen, niet bij technologie. Ik breng verschillende belangen bij elkaar, maak complexe vraagstukken concreet en help organisaties om tot een werkbare aanpak te komen. Doordat ik ook de technische realisatie begrijp, blijft mijn advies praktisch en uitvoerbaar.",
     "image": "Persoonlijk.jpg",
     "image_alt": "Jonan Harrewijn",
-    "highlights": [
-      "Stakeholder- & requirementsafstemming",
-      "Procesverbetering & automatisering",
-      "Datastrategie & governance",
-      "Verandering, adoptie & kennisoverdracht"
-    ]
+    "highlights": [],
+    "expertise_text": "Ervaring met businessanalyse, procesverbetering, stakeholdermanagement, datastrategie, governance, Microsoft Fabric en Power BI."
   },
-  "expertise": [
-    "Businessanalyse",
-    "Procesherontwerp",
-    "Stakeholdermanagement",
-    "Datastrategie",
-    "Data governance",
-    "Product ownership",
-    "Verandering & adoptie",
-    "Microsoft Fabric",
-    "Power BI"
-  ],
+  "expertise": [],
   "cta": {
     "eyebrow": "Een datavraagstuk?",
     "title": "Laten we verbeteren hoe uw organisatie met data werkt.",
