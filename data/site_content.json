@@ -134,6 +134,49 @@
     "expertise_text": "Experience across business analysis, process improvement, stakeholder management, data strategy, governance, Microsoft Fabric and Power BI."
   },
   "expertise": [],
+  "technical": {
+    "eyebrow": "Technical expertise",
+    "title": "From advice to a working solution.",
+    "intro": "Enough technical depth to not only advise, but also design and deliver the solution.",
+    "groups": [
+      {
+        "title": "Platforms & tools",
+        "items": [
+          "Microsoft Fabric",
+          "Power BI",
+          "Azure",
+          "Data Factory",
+          "Databricks",
+          "PySpark",
+          "Python",
+          "SQL",
+          "Power Platform",
+          "Azure DevOps / GitHub Actions"
+        ]
+      },
+      {
+        "title": "Data & architecture",
+        "items": [
+          "Kimball",
+          "Data Vault 2.0",
+          "Medallion architecture",
+          "Master Data Management",
+          "Data Governance",
+          "AI"
+        ]
+      },
+      {
+        "title": "Certifications",
+        "items": [
+          "CDMP / DAMA-DMBOK",
+          "Fabric Analytics Engineer (DP-600)",
+          "Fabric Data Engineer (DP-700)",
+          "Azure Data Engineer (DP-203)",
+          "Power BI Data Analyst (PL-300)"
+        ]
+      }
+    ]
+  },
   "cta": {
     "eyebrow": "Have a data challenge?",
     "title": "Let’s improve the way your organisation works with data.",
