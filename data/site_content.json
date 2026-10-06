@@ -136,8 +136,6 @@
   "expertise": [],
   "technical": {
     "eyebrow": "Technical expertise",
-    "title": "From advice to a working solution.",
-    "intro": "Enough technical depth to not only advise, but also design and deliver the solution.",
     "groups": [
       {
         "title": "Platforms & tools",
