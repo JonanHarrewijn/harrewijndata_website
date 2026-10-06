@@ -135,6 +135,49 @@
     "expertise_text": "Ervaring met businessanalyse, procesverbetering, stakeholdermanagement, datastrategie, governance, Microsoft Fabric en Power BI."
   },
   "expertise": [],
+  "technical": {
+    "eyebrow": "Technische expertise",
+    "title": "Van advies tot werkende oplossing.",
+    "intro": "Genoeg technische diepgang om niet alleen te adviseren, maar oplossingen ook daadwerkelijk te ontwerpen en realiseren.",
+    "groups": [
+      {
+        "title": "Platforms & tools",
+        "items": [
+          "Microsoft Fabric",
+          "Power BI",
+          "Azure",
+          "Data Factory",
+          "Databricks",
+          "PySpark",
+          "Python",
+          "SQL",
+          "Power Platform",
+          "Azure DevOps / GitHub Actions"
+        ]
+      },
+      {
+        "title": "Data & architectuur",
+        "items": [
+          "Kimball",
+          "Data Vault 2.0",
+          "Medallion-architectuur",
+          "Master Data Management",
+          "Data Governance",
+          "AI"
+        ]
+      },
+      {
+        "title": "Certificeringen",
+        "items": [
+          "CDMP / DAMA-DMBOK",
+          "Fabric Analytics Engineer (DP-600)",
+          "Fabric Data Engineer (DP-700)",
+          "Azure Data Engineer (DP-203)",
+          "Power BI Data Analyst (PL-300)"
+        ]
+      }
+    ]
+  },
   "cta": {
     "eyebrow": "Een datavraagstuk?",
     "title": "Laten we verbeteren hoe uw organisatie met data werkt.",
